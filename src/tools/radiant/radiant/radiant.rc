@@ -1,0 +1,41 @@
+#include <winresrc.h>
+
+
+#ifdef FULL_PATH_RC_FILE
+# define PATH_UFORADIANTICON_FILE "build/projects/radiant.ico"
+#else
+# define PATH_UFORADIANTICON_FILE "radiant.ico"
+#endif
+
+101 ICON DISCARDABLE PATH_UFORADIANTICON_FILE
+
+VS_VERSION_INFO VERSIONINFO
+FILEFLAGSMASK 0x17L
+#ifdef DEBUG
+	FILEFLAGS 0x3L
+#else
+	FILEFLAGS 0x2L
+#endif
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040004b0"
+		BEGIN
+			VALUE "Comments", "http://ufoai.sf.net"
+			VALUE "CompanyName", "UFO:Alien Invasion Team"
+			VALUE "FileDescription", "UFORadiant"
+			VALUE "InternalName", "uforadiant"
+			VALUE "LegalCopyright", "Copyright (C) 2002-2007"
+			VALUE "OriginalFilename", "uforadiant.exe"
+			VALUE "ProductName", "UFORadiant"
+			VALUE "ProductVersion", "Release"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x400, 1200
+	END
+END

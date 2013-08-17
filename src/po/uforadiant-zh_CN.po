@@ -1,0 +1,1509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UFORadiant\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-05-26 14:39+0600\n"
+"Last-Translator: Kostia (Kildor) Romanov <kostia@ngs.ru>\n"
+"Language-Team: UFO:AI Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Poedit-Basepath: ../../\n"
+
+msgid "Processing..."
+msgstr "处理..."
+
+msgid "Changing Engine Path"
+msgstr "改变游戏所在目录"
+
+msgid "Loading Map"
+msgstr "载入地图"
+
+msgid "Saving Map"
+msgstr "保存地图"
+
+msgid "Loading Model"
+msgstr "加载模组"
+
+msgid "Refreshing Models"
+msgstr "刷新模组"
+
+msgid "Loading Textures"
+msgstr "载入纹理"
+
+msgid "Loading Shaders"
+msgstr "加载着色器"
+
+msgid "Autosave"
+msgstr "自动保存"
+
+msgid "Enable Autosave"
+msgstr "启用自动保存"
+
+msgid "Autosave Frequency (minutes)"
+msgstr "自动保存频率（分钟） "
+
+msgid "Save Snapshots"
+msgstr "保存快照"
+
+msgid "Autosave Preferences"
+msgstr "自动保存属性设置"
+
+msgid "Snap planes to integer grid"
+msgstr ""
+
+msgid "Default texture scale"
+msgstr "默认纹理尺寸"
+
+msgid "Use alternative texture-projection"
+msgstr "使用替代的纹理投影"
+
+msgid "Always use nodraw for new brushes"
+msgstr "新部件总是使用nodraw"
+
+msgid "Brush"
+msgstr "部件"
+
+msgid "Brush Settings"
+msgstr "部件设置"
+
+msgid "Movement Speed"
+msgstr "移动速度"
+
+msgid "Link strafe speed to movement speed"
+msgstr ""
+
+msgid "Rotation Speed"
+msgstr "旋转速度"
+
+msgid "Invert mouse vertical axis"
+msgstr "反转鼠标运动的垂直轴"
+
+msgid "Discrete movement"
+msgstr "跳跃移动"
+
+msgid "Enable far-clip plane"
+msgstr ""
+
+msgctxt "Render Mode"
+msgid "Wireframe"
+msgstr "线框"
+
+msgctxt "Render Mode"
+msgid "Flatshade"
+msgstr ""
+
+msgctxt "Render Mode"
+msgid "Textured"
+msgstr "纹理"
+
+msgid "Render Mode"
+msgstr "渲染模式"
+
+msgctxt "Strafe Mode"
+msgid "Both"
+msgstr ""
+
+msgctxt "Strafe Mode"
+msgid "Forward"
+msgstr "前进"
+
+msgctxt "Strafe Mode"
+msgid "Up"
+msgstr "向上"
+
+msgid "Strafe Mode"
+msgstr ""
+
+msgid "Camera"
+msgstr "相机"
+
+msgid "Camera View Preferences"
+msgstr "相机查看选项"
+
+msgid "Colors"
+msgstr "色彩"
+
+msgid "Themes"
+msgstr "主题"
+
+msgid "QE4 Original"
+msgstr ""
+
+msgid "Q3Radiant Original"
+msgstr ""
+
+msgid "Black and Green"
+msgstr "黑绿"
+
+msgid "Maya/Max/Lightwave Emulation"
+msgstr ""
+
+msgid "_Texture Background..."
+msgstr "纹理背景..."
+
+msgid "Grid Background..."
+msgstr "网格背景..."
+
+msgid "Grid Major..."
+msgstr ""
+
+msgid "Grid Minor..."
+msgstr ""
+
+msgid "Grid Major Small..."
+msgstr ""
+
+msgid "Grid Minor Small..."
+msgstr ""
+
+msgid "Grid Text..."
+msgstr "网格文字..."
+
+msgid "Grid Block..."
+msgstr "网格块..."
+
+msgid "Default Brush..."
+msgstr "默认部件..."
+
+msgid "Camera Background..."
+msgstr "相机背景..."
+
+msgid "Selected Brush..."
+msgstr "选择部件..."
+
+msgid "Selected Brush (Camera)..."
+msgstr "选择部件(相机)..."
+
+msgid "Clipper..."
+msgstr "裁剪器..."
+
+msgid "Active View name..."
+msgstr "活动视图名称..."
+
+msgid "Command"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "_Help"
+msgstr "_Help"
+
+msgid "Manual"
+msgstr "手动"
+
+msgid "Bug report"
+msgstr "错误报告"
+
+msgid "_About"
+msgstr "_About"
+
+msgid "_Plugins"
+msgstr "_Plugins"
+
+msgid "_View"
+msgstr "_View"
+
+msgid "Hide _Unused"
+msgstr "隐藏未使用的"
+
+msgid "Show All"
+msgstr "全部显示"
+
+msgid "Show shaders"
+msgstr "显示着色器"
+
+msgid "Fixed Size"
+msgstr "固定大小"
+
+msgid "_Tools"
+msgstr "_Tools"
+
+msgid "Flush & Reload Shaders"
+msgstr "刷新并重载着色器"
+
+msgid "Find / Replace..."
+msgstr "查找/替换..."
+
+msgid "Texture Thumbnail Scale"
+msgstr "纹理缩略图尺寸"
+
+msgid "Mousewheel Increment"
+msgstr "滚轮幅度"
+
+msgid "Texture Browser"
+msgstr "纹理浏览器"
+
+msgid "Texture Browser Preferences"
+msgstr "纹理浏览器属性设置"
+
+msgid "Window Layout"
+msgstr "窗口布局"
+
+msgid "Detachable Menus"
+msgstr "分离菜单"
+
+msgid "Plugin Toolbar"
+msgstr "插件工具栏"
+
+msgid "_File"
+msgstr "文件"
+
+msgid "_New Map"
+msgstr "新地图"
+
+msgid "_Open..."
+msgstr "打开..."
+
+msgid "_Import..."
+msgstr "导入..."
+
+msgid "_Save"
+msgstr "保存"
+
+msgid "Save _as..."
+msgstr "保存至..."
+
+msgid "Save s_elected..."
+msgstr "保存所选择的..."
+
+msgid "Save re_gion..."
+msgstr ""
+
+msgid "_Refresh models"
+msgstr "刷新模组"
+
+msgid "E_xit"
+msgstr "退出"
+
+msgid "_Edit"
+msgstr "编辑"
+
+msgid "_Undo"
+msgstr "撤销"
+
+msgid "_Redo"
+msgstr "重做"
+
+msgid "_Copy"
+msgstr "复制"
+
+msgid "_Paste"
+msgstr "粘贴"
+
+msgid "P_aste To Camera"
+msgstr "粘贴至相机"
+
+msgid "_Duplicate"
+msgstr "复制出新的"
+
+msgid "D_elete"
+msgstr "删除"
+
+msgid "Pa_rent"
+msgstr "Pa_rent"
+
+msgid "C_lear Selection"
+msgstr "清除选择"
+
+msgid "_Invert Selection"
+msgstr "反选"
+
+msgid "Select i_nside"
+msgstr "选择内部的"
+
+msgid "Select _touching"
+msgstr "选择接触的"
+
+msgid "E_xpand Selection"
+msgstr ""
+
+msgid "To Whole _Entities"
+msgstr "选择该物件"
+
+msgid "Shortcuts list"
+msgstr "快捷键一览"
+
+msgid "Pre_ferences..."
+msgstr "配置..."
+
+msgid "Filter"
+msgstr "过滤器"
+
+msgid "Vie_w"
+msgstr "Vie_w"
+
+msgid "Toggle Sidebar"
+msgstr "切换属性栏"
+
+msgid "Toggle EntityInspector"
+msgstr "切换物件巡视"
+
+msgid "Toggle SurfaceInspector"
+msgstr "切换外观巡视"
+
+msgid "_Center"
+msgstr "居中"
+
+msgid "_Up Floor"
+msgstr "上楼"
+
+msgid "_Down Floor"
+msgstr "下楼"
+
+msgid "Far Clip Plane In"
+msgstr ""
+
+msgid "Far Clip Plane Out"
+msgstr ""
+
+msgid "Look Through Selected"
+msgstr ""
+
+msgid "Look Through Camera"
+msgstr ""
+
+msgid "Orthographic"
+msgstr ""
+
+msgid "_Next (XY, YZ, YZ)"
+msgstr "_Next (XY, YZ, YZ)"
+
+msgid "XY (Top)"
+msgstr "XY (Top)"
+
+msgid "XZ (Side)"
+msgstr "XZ (Side)"
+
+msgid "YZ (Front)"
+msgstr "YZ (Front)"
+
+msgid "_XY 100%"
+msgstr "_XY 100%"
+
+msgid "XY Zoom _In"
+msgstr "XY Zoom _In"
+
+msgid "XY Zoom _Out"
+msgstr "XY Zoom _Out"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "Toggle Grid"
+msgstr "切换网格显示"
+
+msgid "Toggle Crosshairs"
+msgstr ""
+
+msgid "Toggle Sizeinfo"
+msgstr ""
+
+msgid "Show _Angles"
+msgstr ""
+
+msgid "Show _Names"
+msgstr "显示名称"
+
+msgid "Show Blocks"
+msgstr "显示块"
+
+msgid "Show C_oordinates"
+msgstr ""
+
+msgid "Show Window Outline"
+msgstr "显示窗口基线"
+
+msgid "Show Axes"
+msgstr "显示轴"
+
+msgid "Show Workzone"
+msgstr ""
+
+msgid "Show Stats"
+msgstr "显示状态"
+
+msgid "Hide/Show"
+msgstr "隐藏/显示"
+
+msgid "Hide Selected"
+msgstr "隐藏选定的"
+
+msgid "Show Hidden"
+msgstr "显示隐藏的"
+
+msgid "Region"
+msgstr "区域"
+
+msgid "_Off"
+msgstr "_Off"
+
+msgid "_Set XY"
+msgstr "_Set XY"
+
+msgid "Set _Brush"
+msgstr ""
+
+msgid "Set Se_lected Brushes"
+msgstr ""
+
+msgid "M_odify"
+msgstr "更改"
+
+msgid "Components"
+msgstr ""
+
+msgid "_Edges"
+msgstr "边"
+
+msgid "_Vertices"
+msgstr "点"
+
+msgid "_Faces"
+msgstr "面"
+
+msgid "Nudge"
+msgstr ""
+
+msgid "Nudge Left"
+msgstr ""
+
+msgid "Nudge Right"
+msgstr ""
+
+msgid "Nudge Up"
+msgstr ""
+
+msgid "Nudge Down"
+msgstr ""
+
+msgid "Rotate"
+msgstr "旋转"
+
+msgid "Rotate X"
+msgstr "旋转 X轴"
+
+msgid "Rotate Y"
+msgstr "旋转 Y轴"
+
+msgid "Rotate Z"
+msgstr "旋转 Z轴"
+
+msgid "Flip"
+msgstr "倒置"
+
+msgid "Flip _X"
+msgstr "倒置 _X"
+
+msgid "Flip _Y"
+msgstr "倒置 _Y"
+
+msgid "Flip _Z"
+msgstr "倒置 _Z"
+
+msgid "Arbitrary rotation..."
+msgstr "任意旋转..."
+
+msgid "Arbitrary scale..."
+msgstr "任意缩放..."
+
+msgid "_Grid"
+msgstr "_Grid"
+
+msgid "M_isc"
+msgstr "M_isc"
+
+msgid "Find brush..."
+msgstr "查找部件..."
+
+msgid "_Print XY View"
+msgstr ""
+
+msgid "_Background select"
+msgstr "背景选择"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Check for errors"
+msgstr "检查错误"
+
+msgid "Compile the map"
+msgstr "编译地图"
+
+msgid "Show pathfinding info"
+msgstr "显示寻径信息"
+
+msgid "E_ntity"
+msgstr "物件"
+
+msgid "B_rush"
+msgstr "部件"
+
+msgid "_Entities"
+msgstr "物件"
+
+msgid "_Surfaces"
+msgstr "外观"
+
+msgid "Map Info"
+msgstr "地图信息"
+
+msgid "Job Info"
+msgstr ""
+
+msgid "Surface Inspector"
+msgstr "外观巡视"
+
+msgid "Texture"
+msgstr "纹理"
+
+msgid "Horizontal shift"
+msgstr "横向转移"
+
+msgctxt "Step width"
+msgid "Step"
+msgstr ""
+
+msgid "Vertical shift"
+msgstr "垂直移位"
+
+msgid "Horizontal stretch"
+msgstr "横向拉伸"
+
+msgid "Vertical stretch"
+msgstr "垂直拉伸"
+
+msgid "Match Grid"
+msgstr "匹配网格"
+
+msgid "Texturing"
+msgstr "纹理"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Surface Flags"
+msgstr "外观标志"
+
+msgid "Content Flags"
+msgstr "内容标志"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Surface Inspector Increments Match Grid"
+msgstr ""
+
+msgid "Surface Inspector Preferences"
+msgstr "外观巡视属性设置"
+
+msgid "About UFORadiant"
+msgstr "关于UFORadiant"
+
+msgid "<b>UFORadiant "
+msgstr ""
+
+msgid "<b>GTK+ Properties</b>"
+msgstr ""
+
+#, c-format
+msgid "Version: %i.%i.%i"
+msgstr "版本：%i.%i.%i"
+
+msgid "<b>OpenGL Properties</b>"
+msgstr ""
+
+msgid "Vendor:"
+msgstr ""
+
+msgid "Version:"
+msgstr "版本："
+
+msgid "Renderer:"
+msgstr "渲染："
+
+msgid "Entity number"
+msgstr "物件编号"
+
+msgid "Brush number"
+msgstr "部件编号"
+
+msgid "Find / Replace Texture(s)"
+msgstr "查找/替换纹理"
+
+msgid "Find:"
+msgstr "查找："
+
+msgid "Replace:"
+msgstr "替换："
+
+msgid "Within selected brushes only"
+msgstr "只处理选定的部件"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "ESC for default, ENTER to validate"
+msgstr ""
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Fix"
+msgstr "修正"
+
+msgid "Will fix all errors, not only the selected ones"
+msgstr "将修复所有错误，不只处理选定的"
+
+msgid "Check Map"
+msgstr "检查地图"
+
+msgid "Nothing to check in this map\n"
+msgstr ""
+
+msgid "Map compiling"
+msgstr "地图编译"
+
+msgid "Check output"
+msgstr ""
+
+msgid "No problems in your map found. Output was:"
+msgstr ""
+
+msgid "Nothing to compile in this map\n"
+msgstr ""
+
+msgid "Compiles the current map with the mapcompiler"
+msgstr ""
+
+msgid "Sides:"
+msgstr ""
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Entity Inspector"
+msgstr "物件巡视"
+
+msgid "Entity List"
+msgstr "物件列表"
+
+msgid "Total Brushes"
+msgstr "部件合计"
+
+msgid "Total Entities"
+msgstr "物件合计"
+
+msgid "Entity breakdown"
+msgstr ""
+
+msgid "Entity"
+msgstr "物件"
+
+msgid "Count"
+msgstr ""
+
+msgid "Axial"
+msgstr "轴"
+
+msgid "Fit"
+msgstr ""
+
+msgid "Label"
+msgstr "标签"
+
+msgid "  X  "
+msgstr "  X  "
+
+msgid "  Y  "
+msgstr "  Y  "
+
+msgid "  Z  "
+msgstr "  Z  "
+
+msgid "Arbitrary scale"
+msgstr "任意缩放"
+
+msgid "Grid0.125"
+msgstr "Grid0.125"
+
+msgid "Grid0.25"
+msgstr "Grid0.25"
+
+msgid "Grid0.5"
+msgstr "Grid0.5"
+
+msgid "Grid1"
+msgstr "Grid1"
+
+msgid "Grid2"
+msgstr "Grid2"
+
+msgid "Grid4"
+msgstr "Grid4"
+
+msgid "Grid8"
+msgstr "Grid8"
+
+msgid "Grid16"
+msgstr "Grid16"
+
+msgid "Grid32"
+msgstr "Grid32"
+
+msgid "Grid64"
+msgstr "Grid64"
+
+msgid "Grid128"
+msgstr "Grid128"
+
+msgid "Grid256"
+msgstr "Grid256"
+
+msgid "Default grid spacing"
+msgstr "默认网格间距"
+
+msgid "Grid"
+msgstr "网格"
+
+msgid "Grid Settings"
+msgstr "网格设置"
+
+msgid "UFORadiant"
+msgstr "UFORadiant"
+
+msgid ""
+"UFORadiant failed to start properly the last time it was run.\n"
+"The failure may be caused by current preferences.\n"
+"Do you want to reset all preferences to defaults?"
+msgstr ""
+"UFORadiant failed to start properly the last time it was run.\n"
+"The failure may be caused by current preferences.\n"
+"Do you want to reset all preferences to defaults?"
+
+msgid "UFORadiant - Startup Failure"
+msgstr "UFORadiant - 启动失败"
+
+msgid "UFORadiant - Console Log"
+msgstr ""
+
+msgid "Engine Path"
+msgstr "游戏路径"
+
+msgid "Compiler Binary"
+msgstr "编译器"
+
+msgid "Paths"
+msgstr "路径"
+
+msgid "Path Settings"
+msgstr "路径设置"
+
+msgid "Path settings"
+msgstr "路径设置"
+
+msgid "Engine Path Not Found"
+msgstr "游戏路径未找到"
+
+msgid "Solid selection boxes"
+msgstr ""
+
+msgid "Display size info"
+msgstr "显示大小信息"
+
+msgid "Chase mouse during drags"
+msgstr ""
+
+msgid "Update views on camera move"
+msgstr ""
+
+msgid "Orthographic View Preferences"
+msgstr "正投影视图属性设置"
+
+msgid "Clipper tool uses nodraw"
+msgstr "裁剪器使用nodraw"
+
+msgid "Clipper"
+msgstr "裁剪器"
+
+msgid "Clipper Tool Settings"
+msgstr "裁剪器工具设置"
+
+msgid "Message"
+msgstr ""
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Particle"
+msgstr ""
+
+msgid "Job"
+msgstr ""
+
+msgid "Progress"
+msgstr ""
+
+msgid "Console"
+msgstr "控制台"
+
+msgid "Enable Logging"
+msgstr "启用日志记录"
+
+msgid "Load last map on open"
+msgstr "最后一次打开的地图"
+
+msgid "Mouse Type"
+msgstr "鼠标类型"
+
+msgid "Right Button"
+msgstr "右键"
+
+msgid "Activates Context Menu"
+msgstr "激活上下文菜单"
+
+msgid "Mouse"
+msgstr "鼠标"
+
+msgid "Mouse Preferences"
+msgstr "鼠标属性设置"
+
+#, c-format
+msgid "Didn't find 'game' node in the game description file '%s'\n"
+msgstr "Didn't find 'game' node in the game description file '%s'\n"
+
+msgid ""
+"This will close UFORadiant and clean the corresponding registry entries.\n"
+"Next time you start UFORadiant it will be good as new. Do you wish to continue?"
+msgstr ""
+"This will close UFORadiant and clean the corresponding registry entries.\n"
+"Next time you start UFORadiant it will be good as new. Do you wish to continue?"
+
+msgid "Reset Registry"
+msgstr "Reset Registry"
+
+msgid "UFORadiant Preferences"
+msgstr "UFORadiant属性设置"
+
+msgid "Clean"
+msgstr ""
+
+msgid "Preferences"
+msgstr "属性设置"
+
+msgid "Front Page"
+msgstr ""
+
+msgid "Interface Preferences"
+msgstr "界面属性设置"
+
+msgid "Interface"
+msgstr "界面"
+
+msgid "General Settings"
+msgstr "常规设置"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Edit Preferences"
+msgstr "编辑属性设置"
+
+msgid "Preference changes require a restart:\n"
+msgstr ""
+
+msgid "GTK version:"
+msgstr ""
+
+msgid "GTKGL version:"
+msgstr ""
+
+msgid "GLib version:"
+msgstr ""
+
+msgid "Nothing to generate materials from in this map\n"
+msgstr ""
+
+msgid "Generate Materials"
+msgstr ""
+
+msgid "Generate materials from the current map"
+msgstr ""
+
+msgid "Generate materials"
+msgstr ""
+
+msgid "2 button"
+msgstr "2键按钮"
+
+msgid "3 button"
+msgstr "3键按钮"
+
+#, c-format
+msgid "Brushes: %d Entities: %d"
+msgstr "部件：%d 物件：%d"
+
+msgid ""
+"The current map has changed since it was last saved.\n"
+"Do you want to save the current map before continuing?"
+msgstr ""
+"目前地图已经改变。\n"
+"你是否要保存当前地图？"
+
+msgid "Texture Quality"
+msgstr "刷新模组"
+
+msgid "Texture Gamma"
+msgstr ""
+
+msgid "Texture Render Mode"
+msgstr "纹理渲染模式"
+
+msgid "Hardware Texture Compression"
+msgstr "硬件纹理压缩"
+
+msgid "Textures"
+msgstr "纹理"
+
+msgid "Texture Settings"
+msgstr "纹理设置"
+
+msgid "BrushExport-Plugin 3.0 by namespace"
+msgstr ""
+
+msgid "Collapse mesh"
+msgstr ""
+
+msgid "Collapse all brushes into a single group"
+msgstr "将所有部件融合到一个单一的群组"
+
+msgid "Collapse by material"
+msgstr ""
+
+msgid "Collapse into groups by material"
+msgstr ""
+
+msgid "Don't collapse"
+msgstr ""
+
+msgid "Every brush is stored in its own group"
+msgstr ""
+
+msgid "Ignored materials:"
+msgstr ""
+
+msgid "Use short material names (max. 20 chars)"
+msgstr ""
+
+msgid "Create (o)bjects instead of (g)roups"
+msgstr ""
+
+msgid "Create material information (.mtl file)"
+msgstr ""
+
+msgid "Nothing to fix in this map\n"
+msgstr ""
+
+msgid "Map fixing"
+msgstr ""
+
+msgid "Close the editor?"
+msgstr "关闭编辑器？"
+
+msgid "Error saving file."
+msgstr "保存文件出错。"
+
+msgid "You must have a selected class to create an entity"
+msgstr ""
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Cannot change \"classname\" key back to worldspawn."
+msgstr ""
+
+msgid "No spaces are allowed in entity keys."
+msgstr ""
+
+msgid "Console logging"
+msgstr ""
+
+msgid "Radiant - Runtime Error"
+msgstr ""
+
+msgid ""
+"Radiant failed to start properly the last time it was run.\n"
+"The failure may be related to current global preferences.\n"
+"Do you want to reset global preferences to defaults?"
+msgstr ""
+"Radiant上一次未能正确启动运行。\n"
+"失败的原因可能和设置有关。\n"
+"你要重置为默认设置吗？"
+
+msgid "Radiant - Startup Failure"
+msgstr ""
+
+msgid "Radiant - Console Log"
+msgstr ""
+
+msgid "WARNING: Could not delete game pid at "
+msgstr ""
+
+msgid "You have to save your map before material generation can work"
+msgstr ""
+
+msgid "Failed to launch browser!"
+msgstr "无法启动浏览器！"
+
+msgid "There's already a worldspawn in your map!"
+msgstr ""
+
+msgid "You have to select some brushes to get the bounding box for.\n"
+msgstr ""
+
+msgid "No selection"
+msgstr "没有选择"
+
+msgid "Background Image"
+msgstr "背景图像"
+
+msgctxt "Context Menu Action"
+msgid "Connect"
+msgstr ""
+
+msgctxt "Context Menu Action"
+msgid "Fit Face"
+msgstr ""
+
+msgid "Open File"
+msgstr "打开文件"
+
+msgid "Save File"
+msgstr "保存文件"
+
+msgid "All Files (*.*)"
+msgstr "所有文件(*.*)"
+
+msgid ""
+"The file specified already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"指定的文件已经存在。\n"
+"你是否要覆盖？"
+
+msgid "Find Brush"
+msgstr "查找部件"
+
+msgid "Find"
+msgstr "查找"
+
+msgid "Radiant - Error"
+msgstr ""
+
+msgid "Choose Model"
+msgstr "选择模组"
+
+msgid "Open Wav File"
+msgstr "打开wav文件"
+
+msgid "Choose File"
+msgstr "选择文件"
+
+msgid "Layout"
+msgstr "布局"
+
+msgid "Layout Preferences"
+msgstr "布局属性设置"
+
+msgid "Pathfinding log file"
+msgstr "寻径日志文件"
+
+msgid "Open an existing map (CTRL + O)"
+msgstr "打开一个现有的地图(CTRL + O)"
+
+msgid "Save the active map (CTRL + S)"
+msgstr "保存当前地图(CTRL + S)"
+
+msgid "Undo (CTRL + Z)"
+msgstr "撤消(CTRL + Z)"
+
+msgid "Redo (CTRL + Y)"
+msgstr "重做(CTRL + Y)"
+
+msgid "x-axis Flip"
+msgstr "X轴倒置"
+
+msgid "x-axis Rotate"
+msgstr "X轴旋转"
+
+msgid "y-axis Flip"
+msgstr "Y轴倒置"
+
+msgid "y-axis Rotate"
+msgstr "Y轴旋转"
+
+msgid "z-axis Flip"
+msgstr "Z轴倒置"
+
+msgid "z-axis Rotate"
+msgstr "Z轴旋转"
+
+msgid "Select touching"
+msgstr "选择接触的"
+
+msgid "Select inside"
+msgstr "选择内部的"
+
+msgid "Select whole entity"
+msgstr "选择整个物件"
+
+msgid "Select all of type"
+msgstr ""
+
+msgid "CSG Subtract (SHIFT + U)"
+msgstr ""
+
+msgid "CSG Merge (CTRL + U)"
+msgstr ""
+
+msgid "Hollow"
+msgstr ""
+
+msgid "Select Vertices (V)"
+msgstr "选择点(V)"
+
+msgid "Select Edges (E)"
+msgstr "选择边(E)"
+
+msgid "Select Faces (F)"
+msgstr "选择面(F)"
+
+msgid "Clipper (X)"
+msgstr "裁剪器(X)"
+
+msgid "Filter nodraw"
+msgstr "过滤nodraw"
+
+msgid "Filter actorclip"
+msgstr ""
+
+msgid "Filter weaponclip"
+msgstr ""
+
+msgid "Change views"
+msgstr ""
+
+msgid "Translate (W)"
+msgstr "移动(W)"
+
+msgid "Rotate (R)"
+msgstr "旋转(R)"
+
+msgid "Scale"
+msgstr "缩放"
+
+msgid "Resize (Q)"
+msgstr "调整大小(Q)"
+
+msgid "Refresh Models"
+msgstr "刷新模组"
+
+msgid "Background image"
+msgstr "背景图像"
+
+msgid "Create material entries for selected faces (M)"
+msgstr ""
+
+msgid "Texture Lock (SHIFT + T)"
+msgstr "纹理锁定(SHIFT + T)"
+
+msgid "Texture Browser (T)"
+msgstr "纹理浏览器(T)"
+
+msgid "Save Image"
+msgstr "保存图像"
+
+msgid "Cone..."
+msgstr ""
+
+msgid "Prism..."
+msgstr ""
+
+msgid "Sphere..."
+msgstr ""
+
+msgid "Make _Hollow"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Subtract"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Merge"
+msgstr ""
+
+msgid "Clip selection"
+msgstr "选择裁剪器"
+
+msgid "Split selection"
+msgstr "分割选择"
+
+msgid "Flip Clip orientation"
+msgstr "倒置裁剪方向"
+
+msgid "Make detail"
+msgstr ""
+
+msgid "Make structural"
+msgstr ""
+
+msgid "Texture Lock"
+msgstr "纹理锁"
+
+msgid "Copy Face Texture"
+msgstr "复制面纹理"
+
+msgid "Paste Face Texture"
+msgstr "粘贴面纹理"
+
+msgid "Make Hollow"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract (SHIFT + U)"
+msgstr ""
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge (CTRL + U)"
+msgstr ""
+
+msgid "_Regroup"
+msgstr ""
+
+msgid "_Ungroup"
+msgstr ""
+
+msgid "_Connect"
+msgstr ""
+
+msgid "_Select Color..."
+msgstr "选择颜色..."
+
+msgctxt "Filter Menu"
+msgid "World"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Entities"
+msgstr "物件"
+
+msgctxt "Filter Menu"
+msgid "Translucent"
+msgstr "透明"
+
+msgctxt "Filter Menu"
+msgid "Liquids"
+msgstr "液体"
+
+msgctxt "Filter Menu"
+msgid "Caulk"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Clips"
+msgstr "裁剪器"
+
+msgctxt "Filter Menu"
+msgid "ActorClips"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "WeaponClips"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Lights"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "NoSurfLights"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "NoFootsteps"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Structural"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Nodraw"
+msgstr "Nodraw"
+
+msgctxt "Filter Menu"
+msgid "Phong"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Details"
+msgstr "详细资料"
+
+msgctxt "Filter Menu"
+msgid "Hints"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Models"
+msgstr "模组"
+
+msgctxt "Filter Menu"
+msgid "Triggers"
+msgstr "触发"
+
+msgid "Invert filters"
+msgstr "反向过滤器"
+
+msgid "Reset filters"
+msgstr "重置过滤器"
+
+msgid "Save as Obj"
+msgstr "另存为对象"
+
+msgid "Light intensity"
+msgstr "光照强度"
+
+msgid "Arbitrary sides"
+msgstr ""
+
+msgid "Cubic clip the camera view (\\)"
+msgstr ""
+
+msgid "Mapped Commands"
+msgstr "命令映射"
+
+msgid "Recent Files"
+msgstr "最近的文件"
+
+msgid "Open Map"
+msgstr "打开地图"
+
+msgctxt "Last used files count"
+msgid "Count"
+msgstr ""
+
+msgid "Arbitrary rotation"
+msgstr "任意旋转"
+
+msgid "CSG Subtract"
+msgstr ""
+
+msgid "CSG Merge"
+msgstr ""
+
+msgid "Select _Vertices"
+msgstr "选择点"
+
+msgid "Select _Edges"
+msgstr "选择边"
+
+msgid "Select _Faces"
+msgstr "选择面"
+
+msgid "Image formats:"
+msgstr "图像格式："
+
+msgid "Yaw Angle"
+msgstr ""
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Select all of _same type"
+msgstr ""
+
+#, fuzzy
+msgid "Error saving file"
+msgstr "无法保存文件。"
+
+msgid "Prefab"
+msgstr ""
+
+#, fuzzy
+msgid "Image"
+msgstr "保存图像"
+
+msgid "Deselect before insert"
+msgstr ""
+
+#, fuzzy
+msgid "Replace current selection"
+msgstr ""
+
+msgid "Prefabs"
+msgstr ""
+
+#, fuzzy
+msgid "Rock..."
+msgstr "网格块..."
+
+#, fuzzy
+msgid "Open Sound File"
+msgstr "打开文件"
+
+#, fuzzy
+msgid "Select all Faces of same te_xture"
+msgstr ""
+
+#, fuzzy
+msgid "Toggle Prefabs"
+msgstr ""
+
+msgid "Error during load of map."
+msgstr "地图无法加载。"
+
+#, fuzzy
+msgid "Import Map"
+msgstr "导入..."
+
+#, fuzzy
+msgid "Save Map"
+msgstr "保存地图"
+
+#, fuzzy
+msgid "Export Selection"
+msgstr ""
+
+#, fuzzy
+msgid "Export Region"
+msgstr "区域"
+
+#, fuzzy
+msgid "Select all Faces of same texture"
+msgstr ""

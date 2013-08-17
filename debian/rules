@@ -1,0 +1,141 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Copyright 2004, 2006 Yann Dirson.
+# Based on debhelper sample by Joey Hess.
+
+export LC_ALL=C
+export DH_OPTIONS
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+	NUMJOBS = $(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+	MAKEFLAGS += -j$(NUMJOBS)
+endif
+
+CONFIGUREFLAGS += --datadir=/usr/share/games \
+	--libdir=/usr/lib/games/ufoai/base \
+	--prefix=/usr \
+	--enable-uforadiant \
+	--disable-testall
+
+MAINVER := $(shell dpkg-parsechangelog | sed -ne 's/^Version: *\([^~-]*\).*/\1/p' )
+TMPDIR = /tmp/
+ORIGDIR = ufoai_$(MAINVER).orig
+ORIGTGZ = ufoai_$(MAINVER).orig.tar.gz
+DEBTGZ  = ufoai_$(MAINVER).debian.tar.gz
+
+../$(ORIGTGZ):
+	git archive HEAD | tar -x -C $(TMPDIR)/$(ORIGDIR)
+	-rm -rf $(TMPDIR)/$(ORIGDIR)/contrib
+	-rm -rf $(TMPDIR)/$(ORIGDIR)/debian
+	cd $(TMPDIR) ; tar -zcf $(ORIGTGZ) $(ORIGDIR) ; cd $(CURDIR)
+	rm -rf $(TMPDIR)/$(ORIGDIR)
+	mv $(TMPDIR)/$(ORIGTGZ) $(CURDIR)/..
+
+get-orig-source: ../$(ORIGTGZ)
+
+debtar: clean
+	dh_testdir
+	tar -zcf ../$(DEBTGZ) debian/
+
+config.h:
+	dh_testdir
+	./configure $(CONFIGUREFLAGS)
+
+build-arch: stamps/build-arch
+stamps/build-arch: config.h
+	dh_testdir
+
+	$(MAKE) $(MAKEFLAGS)
+
+	mkdir -p stamps
+	touch $@
+
+build-indep: stamps/build-indep
+stamps/build-indep: config.h
+	dh_testdir
+
+	$(MAKE) $(MAKEFLAGS) installer-pre
+	$(MAKE) manual
+
+	mkdir -p stamps
+	touch $@
+
+patch: patch-stamp
+stamps/patch-stamp:
+	dpatch apply-all
+
+unpatch:
+	dpatch deapply-all
+	rm -rf stampts/patch-stamp
+
+really_clean:
+	dh_testdir
+	dh_testroot
+	rm -rf stamps
+
+	[ ! -f Makefile ] || $(MAKE) clean
+	find base/maps -name '*.bsp' | xargs --no-run-if-empty rm
+	-rm -f base/*.pk3
+	-rm -f config.h config.log
+	-rm -rf base/i18n
+	-rm -rf debian/files debian/substvars
+
+	dh_clean
+
+clean: really_clean unpatch
+
+install-arch: stamps/build-arch
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+	dh_install
+
+install-indep: stamps/build-indep
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+	dh_install
+
+# No architecture-independent files here.
+binary-indep: DH_OPTIONS=-i
+binary-indep: install-indep
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_link
+	dh_compress -X.pdf
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+# Build architecture-dependent files here.
+binary-arch: DH_OPTIONS=-a
+binary-arch: install-arch
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installexamples
+	dh_installmenu
+	dh_installmime
+	dh_installman
+	dh_link
+	dh_strip -a
+	dh_compress -X.pdf
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+build: build-arch build-indep
+binary: binary-indep binary-arch
+.PHONY: build build-arch build-indep clean binary-indep binary-arch binary install patch unpatch

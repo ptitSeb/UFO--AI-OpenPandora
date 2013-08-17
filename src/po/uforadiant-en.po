@@ -1,0 +1,1497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UFORadiant\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-05-26 14:39+0600\n"
+"Last-Translator: Kostia (Kildor) Romanov <kostia@ngs.ru>\n"
+"Language-Team: UFO:AI Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Basepath: ../../\n"
+
+msgid "Processing..."
+msgstr "Processing..."
+
+msgid "Changing Engine Path"
+msgstr "Changing Engine Path"
+
+msgid "Loading Map"
+msgstr "Loading Map"
+
+msgid "Saving Map"
+msgstr "Saving Map"
+
+msgid "Loading Model"
+msgstr "Loading Model"
+
+msgid "Refreshing Models"
+msgstr "Refreshing Models"
+
+msgid "Loading Textures"
+msgstr "Loading Textures"
+
+msgid "Loading Shaders"
+msgstr "Loading Shaders"
+
+msgid "Autosave"
+msgstr "Autosave"
+
+msgid "Enable Autosave"
+msgstr "Enable Autosave"
+
+msgid "Autosave Frequency (minutes)"
+msgstr "Autosave Frequency (minutes)"
+
+msgid "Save Snapshots"
+msgstr "Save Snapshots"
+
+msgid "Autosave Preferences"
+msgstr "Autosave Preferences"
+
+msgid "Snap planes to integer grid"
+msgstr "Snap planes to integer grid"
+
+msgid "Default texture scale"
+msgstr "Default texture scale"
+
+msgid "Use alternative texture-projection"
+msgstr "Use alternative texture-projection"
+
+msgid "Always use nodraw for new brushes"
+msgstr "Always use nodraw for new brushes"
+
+msgid "Brush"
+msgstr "Brush"
+
+msgid "Brush Settings"
+msgstr "Brush Settings"
+
+msgid "Movement Speed"
+msgstr "Movement Speed"
+
+msgid "Link strafe speed to movement speed"
+msgstr "Link strafe speed to movement speed"
+
+msgid "Rotation Speed"
+msgstr "Rotation Speed"
+
+msgid "Invert mouse vertical axis"
+msgstr "Invert mouse vertical axis"
+
+msgid "Discrete movement"
+msgstr "Discrete movement"
+
+msgid "Enable far-clip plane"
+msgstr "Enable far-clip plane"
+
+msgctxt "Render Mode"
+msgid "Wireframe"
+msgstr "Wireframe"
+
+msgctxt "Render Mode"
+msgid "Flatshade"
+msgstr "Flatshade"
+
+msgctxt "Render Mode"
+msgid "Textured"
+msgstr "Textured"
+
+msgid "Render Mode"
+msgstr "Render Mode"
+
+msgctxt "Strafe Mode"
+msgid "Both"
+msgstr "Both"
+
+msgctxt "Strafe Mode"
+msgid "Forward"
+msgstr "Forward"
+
+msgctxt "Strafe Mode"
+msgid "Up"
+msgstr "Up"
+
+msgid "Strafe Mode"
+msgstr "Strafe Mode"
+
+msgid "Camera"
+msgstr "Camera"
+
+msgid "Camera View Preferences"
+msgstr "Camera View Preferences"
+
+msgid "Colors"
+msgstr "Colors"
+
+msgid "Themes"
+msgstr "Themes"
+
+msgid "QE4 Original"
+msgstr "QE4 Original"
+
+msgid "Q3Radiant Original"
+msgstr "Q3Radiant Original"
+
+msgid "Black and Green"
+msgstr "Black and Green"
+
+msgid "Maya/Max/Lightwave Emulation"
+msgstr "Maya/Max/Lightwave Emulation"
+
+msgid "_Texture Background..."
+msgstr "_Texture Background..."
+
+msgid "Grid Background..."
+msgstr "Grid Background..."
+
+msgid "Grid Major..."
+msgstr "Grid Major..."
+
+msgid "Grid Minor..."
+msgstr "Grid Minor..."
+
+msgid "Grid Major Small..."
+msgstr "Grid Major Small..."
+
+msgid "Grid Minor Small..."
+msgstr "Grid Minor Small..."
+
+msgid "Grid Text..."
+msgstr "Grid Text..."
+
+msgid "Grid Block..."
+msgstr "Grid Block..."
+
+msgid "Default Brush..."
+msgstr "Default Brush..."
+
+msgid "Camera Background..."
+msgstr "Camera Background..."
+
+msgid "Selected Brush..."
+msgstr "Selected Brush..."
+
+msgid "Selected Brush (Camera)..."
+msgstr "Selected Brush (Camera)..."
+
+msgid "Clipper..."
+msgstr "Clipper..."
+
+msgid "Active View name..."
+msgstr "Active View name..."
+
+msgid "Command"
+msgstr "Command"
+
+msgid "Key"
+msgstr "Key"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "_Help"
+msgstr "_Help"
+
+msgid "Manual"
+msgstr "Manual"
+
+msgid "Bug report"
+msgstr "Bug report"
+
+msgid "_About"
+msgstr "_About"
+
+msgid "_Plugins"
+msgstr "_Plugins"
+
+msgid "_View"
+msgstr "_View"
+
+msgid "Hide _Unused"
+msgstr "Hide _Unused"
+
+msgid "Show All"
+msgstr "Show All"
+
+msgid "Show shaders"
+msgstr "Show shaders"
+
+msgid "Fixed Size"
+msgstr "Fixed Size"
+
+msgid "_Tools"
+msgstr "_Tools"
+
+msgid "Flush & Reload Shaders"
+msgstr "Flush & Reload Shaders"
+
+msgid "Find / Replace..."
+msgstr "Find / Replace..."
+
+msgid "Texture Thumbnail Scale"
+msgstr "Texture Thumbnail Scale"
+
+msgid "Mousewheel Increment"
+msgstr "Mousewheel Increment"
+
+msgid "Texture Browser"
+msgstr "Texture Browser"
+
+msgid "Texture Browser Preferences"
+msgstr "Texture Browser Preferences"
+
+msgid "Window Layout"
+msgstr "Window Layout"
+
+msgid "Detachable Menus"
+msgstr "Detachable Menus"
+
+msgid "Plugin Toolbar"
+msgstr "Plugin Toolbar"
+
+msgid "_File"
+msgstr "_File"
+
+msgid "_New Map"
+msgstr "_New Map"
+
+msgid "_Open..."
+msgstr "_Open..."
+
+msgid "_Import..."
+msgstr "_Import..."
+
+msgid "_Save"
+msgstr "_Save"
+
+msgid "Save _as..."
+msgstr "Save _as..."
+
+msgid "Save s_elected..."
+msgstr "Save s_elected..."
+
+msgid "Save re_gion..."
+msgstr "Save re_gion..."
+
+msgid "_Refresh models"
+msgstr "_Refresh models"
+
+msgid "E_xit"
+msgstr "E_xit"
+
+msgid "_Edit"
+msgstr "_Edit"
+
+msgid "_Undo"
+msgstr "_Undo"
+
+msgid "_Redo"
+msgstr "_Redo"
+
+msgid "_Copy"
+msgstr "_Copy"
+
+msgid "_Paste"
+msgstr "_Paste"
+
+msgid "P_aste To Camera"
+msgstr "P_aste To Camera"
+
+msgid "_Duplicate"
+msgstr "_Duplicate"
+
+msgid "D_elete"
+msgstr "D_elete"
+
+msgid "Pa_rent"
+msgstr "Pa_rent"
+
+msgid "C_lear Selection"
+msgstr "C_lear Selection"
+
+msgid "_Invert Selection"
+msgstr "_Invert Selection"
+
+msgid "Select i_nside"
+msgstr "Select i_nside"
+
+msgid "Select _touching"
+msgstr "Select _touching"
+
+msgid "E_xpand Selection"
+msgstr "E_xpand Selection"
+
+msgid "To Whole _Entities"
+msgstr "To Whole _Entities"
+
+msgid "Shortcuts list"
+msgstr "Shortcuts list"
+
+msgid "Pre_ferences..."
+msgstr "Pre_ferences..."
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Vie_w"
+msgstr "Vie_w"
+
+msgid "Toggle Sidebar"
+msgstr "Toggle Sidebar"
+
+msgid "Toggle EntityInspector"
+msgstr "Toggle EntityInspector"
+
+msgid "Toggle SurfaceInspector"
+msgstr "Toggle SurfaceInspector"
+
+msgid "_Center"
+msgstr "_Center"
+
+msgid "_Up Floor"
+msgstr "_Up Floor"
+
+msgid "_Down Floor"
+msgstr "_Down Floor"
+
+msgid "Far Clip Plane In"
+msgstr "Far Clip Plane In"
+
+msgid "Far Clip Plane Out"
+msgstr "Far Clip Plane Out"
+
+msgid "Look Through Selected"
+msgstr "Look Through Selected"
+
+msgid "Look Through Camera"
+msgstr "Look Through Camera"
+
+msgid "Orthographic"
+msgstr "Orthographic"
+
+msgid "_Next (XY, YZ, YZ)"
+msgstr "_Next (XY, YZ, YZ)"
+
+msgid "XY (Top)"
+msgstr "XY (Top)"
+
+msgid "XZ (Side)"
+msgstr "XZ (Side)"
+
+msgid "YZ (Front)"
+msgstr "YZ (Front)"
+
+msgid "_XY 100%"
+msgstr "_XY 100%"
+
+msgid "XY Zoom _In"
+msgstr "XY Zoom _In"
+
+msgid "XY Zoom _Out"
+msgstr "XY Zoom _Out"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "Toggle Grid"
+msgstr "Toggle Grid"
+
+msgid "Toggle Crosshairs"
+msgstr "Toggle Crosshairs"
+
+msgid "Toggle Sizeinfo"
+msgstr "Toggle Sizeinfo"
+
+msgid "Show _Angles"
+msgstr "Show _Angles"
+
+msgid "Show _Names"
+msgstr "Show _Names"
+
+msgid "Show Blocks"
+msgstr "Show Blocks"
+
+msgid "Show C_oordinates"
+msgstr "Show C_oordinates"
+
+msgid "Show Window Outline"
+msgstr "Show Window Outline"
+
+msgid "Show Axes"
+msgstr "Show Axes"
+
+msgid "Show Workzone"
+msgstr "Show Workzone"
+
+msgid "Show Stats"
+msgstr "Show Stats"
+
+msgid "Hide/Show"
+msgstr "Hide/Show"
+
+msgid "Hide Selected"
+msgstr "Hide Selected"
+
+msgid "Show Hidden"
+msgstr "Show Hidden"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "_Off"
+msgstr "_Off"
+
+msgid "_Set XY"
+msgstr "_Set XY"
+
+msgid "Set _Brush"
+msgstr "Set _Brush"
+
+msgid "Set Se_lected Brushes"
+msgstr "Set Se_lected Brushes"
+
+msgid "M_odify"
+msgstr "M_odify"
+
+msgid "Components"
+msgstr "Components"
+
+msgid "_Edges"
+msgstr "_Edges"
+
+msgid "_Vertices"
+msgstr "_Vertices"
+
+msgid "_Faces"
+msgstr "_Faces"
+
+msgid "Nudge"
+msgstr "Nudge"
+
+msgid "Nudge Left"
+msgstr "Nudge Left"
+
+msgid "Nudge Right"
+msgstr "Nudge Right"
+
+msgid "Nudge Up"
+msgstr "Nudge Up"
+
+msgid "Nudge Down"
+msgstr "Nudge Down"
+
+msgid "Rotate"
+msgstr "Rotate"
+
+msgid "Rotate X"
+msgstr "Rotate X"
+
+msgid "Rotate Y"
+msgstr "Rotate Y"
+
+msgid "Rotate Z"
+msgstr "Rotate Z"
+
+msgid "Flip"
+msgstr "Flip"
+
+msgid "Flip _X"
+msgstr "Flip _X"
+
+msgid "Flip _Y"
+msgstr "Flip _Y"
+
+msgid "Flip _Z"
+msgstr "Flip _Z"
+
+msgid "Arbitrary rotation..."
+msgstr "Arbitrary rotation..."
+
+msgid "Arbitrary scale..."
+msgstr "Arbitrary scale..."
+
+msgid "_Grid"
+msgstr "_Grid"
+
+msgid "M_isc"
+msgstr "M_isc"
+
+msgid "Find brush..."
+msgstr "Find brush..."
+
+msgid "_Print XY View"
+msgstr "_Print XY View"
+
+msgid "_Background select"
+msgstr "_Background select"
+
+msgid "Tools"
+msgstr "Tools"
+
+msgid "Check for errors"
+msgstr "Check for errors"
+
+msgid "Compile the map"
+msgstr "Compile the map"
+
+msgid "Show pathfinding info"
+msgstr "Show pathfinding info"
+
+msgid "E_ntity"
+msgstr "E_ntity"
+
+msgid "B_rush"
+msgstr "B_rush"
+
+msgid "_Entities"
+msgstr "_Entities"
+
+msgid "_Surfaces"
+msgstr "_Surfaces"
+
+msgid "Map Info"
+msgstr "Map Info"
+
+msgid "Job Info"
+msgstr "Job Info"
+
+msgid "Surface Inspector"
+msgstr "Surface Inspector"
+
+msgid "Texture"
+msgstr "Texture"
+
+msgid "Horizontal shift"
+msgstr "Horizontal shift"
+
+msgctxt "Step width"
+msgid "Step"
+msgstr "Step"
+
+msgid "Vertical shift"
+msgstr "Vertical shift"
+
+msgid "Horizontal stretch"
+msgstr "Horizontal stretch"
+
+msgid "Vertical stretch"
+msgstr "Vertical stretch"
+
+msgid "Match Grid"
+msgstr "Match Grid"
+
+msgid "Texturing"
+msgstr "Texturing"
+
+msgid "Width"
+msgstr "Width"
+
+msgid "Height"
+msgstr "Height"
+
+msgid "Surface Flags"
+msgstr "Surface Flags"
+
+msgid "Content Flags"
+msgstr "Content Flags"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Surface Inspector Increments Match Grid"
+msgstr "Surface Inspector Increments Match Grid"
+
+msgid "Surface Inspector Preferences"
+msgstr "Surface Inspector Preferences"
+
+msgid "About UFORadiant"
+msgstr "About UFORadiant"
+
+msgid "<b>UFORadiant "
+msgstr "<b>UFORadiant "
+
+msgid "<b>GTK+ Properties</b>"
+msgstr "<b>GTK+ Properties</b>"
+
+#, c-format
+msgid "Version: %i.%i.%i"
+msgstr "Version: %i.%i.%i"
+
+msgid "<b>OpenGL Properties</b>"
+msgstr "<b>OpenGL Properties</b>"
+
+msgid "Vendor:"
+msgstr "Vendor:"
+
+msgid "Version:"
+msgstr "Version:"
+
+msgid "Renderer:"
+msgstr "Renderer:"
+
+msgid "Entity number"
+msgstr "Entity number"
+
+msgid "Brush number"
+msgstr "Brush number"
+
+msgid "Find / Replace Texture(s)"
+msgstr "Find / Replace Texture(s)"
+
+msgid "Find:"
+msgstr "Find:"
+
+msgid "Replace:"
+msgstr "Replace:"
+
+msgid "Within selected brushes only"
+msgstr "Within selected brushes only"
+
+msgid "Apply"
+msgstr "Apply"
+
+msgid "ESC for default, ENTER to validate"
+msgstr "ESC for default, ENTER to validate"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Fix"
+msgstr "Fix"
+
+msgid "Will fix all errors, not only the selected ones"
+msgstr "Will fix all errors, not only the selected ones"
+
+msgid "Check Map"
+msgstr "Check Map"
+
+msgid "Nothing to check in this map\n"
+msgstr "Nothing to check in this map\n"
+
+msgid "Map compiling"
+msgstr "Map compiling"
+
+msgid "Check output"
+msgstr "Check output"
+
+msgid "No problems in your map found. Output was:"
+msgstr "No problems in your map found. Output was:"
+
+msgid "Nothing to compile in this map\n"
+msgstr "Nothing to compile in this map\n"
+
+msgid "Compiles the current map with the mapcompiler"
+msgstr "Compiles the current map with the mapcompiler"
+
+msgid "Sides:"
+msgstr "Sides:"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Entity Inspector"
+msgstr "Entity Inspector"
+
+msgid "Entity List"
+msgstr "Entity List"
+
+msgid "Total Brushes"
+msgstr "Total Brushes"
+
+msgid "Total Entities"
+msgstr "Total Entities"
+
+msgid "Entity breakdown"
+msgstr "Entity breakdown"
+
+msgid "Entity"
+msgstr "Entity"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Axial"
+msgstr "Axial"
+
+msgid "Fit"
+msgstr "Fit"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "  X  "
+msgstr "  X  "
+
+msgid "  Y  "
+msgstr "  Y  "
+
+msgid "  Z  "
+msgstr "  Z  "
+
+msgid "Arbitrary scale"
+msgstr "Arbitrary scale"
+
+msgid "Grid0.125"
+msgstr "Grid0.125"
+
+msgid "Grid0.25"
+msgstr "Grid0.25"
+
+msgid "Grid0.5"
+msgstr "Grid0.5"
+
+msgid "Grid1"
+msgstr "Grid1"
+
+msgid "Grid2"
+msgstr "Grid2"
+
+msgid "Grid4"
+msgstr "Grid4"
+
+msgid "Grid8"
+msgstr "Grid8"
+
+msgid "Grid16"
+msgstr "Grid16"
+
+msgid "Grid32"
+msgstr "Grid32"
+
+msgid "Grid64"
+msgstr "Grid64"
+
+msgid "Grid128"
+msgstr "Grid128"
+
+msgid "Grid256"
+msgstr "Grid256"
+
+msgid "Default grid spacing"
+msgstr "Default grid spacing"
+
+msgid "Grid"
+msgstr "Grid"
+
+msgid "Grid Settings"
+msgstr "Grid Settings"
+
+msgid "UFORadiant"
+msgstr "UFORadiant"
+
+msgid ""
+"UFORadiant failed to start properly the last time it was run.\n"
+"The failure may be caused by current preferences.\n"
+"Do you want to reset all preferences to defaults?"
+msgstr ""
+"UFORadiant failed to start properly the last time it was run.\n"
+"The failure may be caused by current preferences.\n"
+"Do you want to reset all preferences to defaults?"
+
+msgid "UFORadiant - Startup Failure"
+msgstr "UFORadiant - Startup Failure"
+
+msgid "UFORadiant - Console Log"
+msgstr "UFORadiant - Console Log"
+
+msgid "Engine Path"
+msgstr "Engine Path"
+
+msgid "Compiler Binary"
+msgstr "Compiler Binary"
+
+msgid "Paths"
+msgstr "Paths"
+
+msgid "Path Settings"
+msgstr "Path Settings"
+
+msgid "Path settings"
+msgstr "Path settings"
+
+msgid "Engine Path Not Found"
+msgstr "Engine Path Not Found"
+
+msgid "Solid selection boxes"
+msgstr "Solid selection boxes"
+
+msgid "Display size info"
+msgstr "Display size info"
+
+msgid "Chase mouse during drags"
+msgstr "Chase mouse during drags"
+
+msgid "Update views on camera move"
+msgstr "Update views on camera move"
+
+msgid "Orthographic View Preferences"
+msgstr "Orthographic View Preferences"
+
+msgid "Clipper tool uses nodraw"
+msgstr "Clipper tool uses nodraw"
+
+msgid "Clipper"
+msgstr "Clipper"
+
+msgid "Clipper Tool Settings"
+msgstr "Clipper Tool Settings"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Particle"
+msgstr "Particle"
+
+msgid "Job"
+msgstr "Job"
+
+msgid "Progress"
+msgstr "Progress"
+
+msgid "Console"
+msgstr "Console"
+
+msgid "Enable Logging"
+msgstr "Enable Logging"
+
+msgid "Load last map on open"
+msgstr "Load last map on open"
+
+msgid "Mouse Type"
+msgstr "Mouse Type"
+
+msgid "Right Button"
+msgstr "Right Button"
+
+msgid "Activates Context Menu"
+msgstr "Activates Context Menu"
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Mouse Preferences"
+msgstr "Mouse Preferences"
+
+#, c-format
+msgid "Didn't find 'game' node in the game description file '%s'\n"
+msgstr "Didn't find 'game' node in the game description file '%s'\n"
+
+msgid ""
+"This will close UFORadiant and clean the corresponding registry entries.\n"
+"Next time you start UFORadiant it will be good as new. Do you wish to continue?"
+msgstr ""
+"This will close UFORadiant and clean the corresponding registry entries.\n"
+"Next time you start UFORadiant it will be good as new. Do you wish to continue?"
+
+msgid "Reset Registry"
+msgstr "Reset Registry"
+
+msgid "UFORadiant Preferences"
+msgstr "UFORadiant Preferences"
+
+msgid "Clean"
+msgstr "Clean"
+
+msgid "Preferences"
+msgstr "Preferences"
+
+msgid "Front Page"
+msgstr "Front Page"
+
+msgid "Interface Preferences"
+msgstr "Interface Preferences"
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "General Settings"
+msgstr "General Settings"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Edit Preferences"
+msgstr "Edit Preferences"
+
+msgid "Preference changes require a restart:\n"
+msgstr "Preference changes require a restart:\n"
+
+msgid "GTK version:"
+msgstr "GTK version:"
+
+msgid "GTKGL version:"
+msgstr "GTKGL version:"
+
+msgid "GLib version:"
+msgstr "GLib version:"
+
+msgid "Nothing to generate materials from in this map\n"
+msgstr "Nothing to generate materials from in this map\n"
+
+msgid "Generate Materials"
+msgstr "Generate Materials"
+
+msgid "Generate materials from the current map"
+msgstr "Generate materials from the current map"
+
+msgid "Generate materials"
+msgstr "Generate materials"
+
+msgid "2 button"
+msgstr "2 button"
+
+msgid "3 button"
+msgstr "3 button"
+
+#, c-format
+msgid "Brushes: %d Entities: %d"
+msgstr "Brushes: %d Entities: %d"
+
+msgid ""
+"The current map has changed since it was last saved.\n"
+"Do you want to save the current map before continuing?"
+msgstr ""
+"The current map has changed since it was last saved.\n"
+"Do you want to save the current map before continuing?"
+
+msgid "Texture Quality"
+msgstr "Refreshing Models"
+
+msgid "Texture Gamma"
+msgstr "Texture Gamma"
+
+msgid "Texture Render Mode"
+msgstr "Texture Render Mode"
+
+msgid "Hardware Texture Compression"
+msgstr "Hardware Texture Compression"
+
+msgid "Textures"
+msgstr "Textures"
+
+msgid "Texture Settings"
+msgstr "Texture Settings"
+
+msgid "BrushExport-Plugin 3.0 by namespace"
+msgstr "BrushExport-Plugin 3.0 by namespace"
+
+msgid "Collapse mesh"
+msgstr "Collapse mesh"
+
+msgid "Collapse all brushes into a single group"
+msgstr "Collapse all brushes into a single group"
+
+msgid "Collapse by material"
+msgstr "Collapse by material"
+
+msgid "Collapse into groups by material"
+msgstr "Collapse into groups by material"
+
+msgid "Don't collapse"
+msgstr "Don't collapse"
+
+msgid "Every brush is stored in its own group"
+msgstr "Every brush is stored in its own group"
+
+msgid "Ignored materials:"
+msgstr "Ignored materials:"
+
+msgid "Use short material names (max. 20 chars)"
+msgstr "Use short material names (max. 20 chars)"
+
+msgid "Create (o)bjects instead of (g)roups"
+msgstr "Create (o)bjects instead of (g)roups"
+
+msgid "Create material information (.mtl file)"
+msgstr "Create material information (.mtl file)"
+
+msgid "Nothing to fix in this map\n"
+msgstr "Nothing to fix in this map\n"
+
+msgid "Map fixing"
+msgstr "Map fixing"
+
+msgid "Close the editor?"
+msgstr "Close the editor?"
+
+msgid "Error saving file."
+msgstr "Error saving file."
+
+msgid "You must have a selected class to create an entity"
+msgstr "You must have a selected class to create an entity"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "Cannot change \"classname\" key back to worldspawn."
+msgstr "Cannot change \"classname\" key back to worldspawn."
+
+msgid "No spaces are allowed in entity keys."
+msgstr "No spaces are allowed in entity keys."
+
+msgid "Console logging"
+msgstr "Console logging"
+
+msgid "Radiant - Runtime Error"
+msgstr "Radiant - Runtime Error"
+
+msgid ""
+"Radiant failed to start properly the last time it was run.\n"
+"The failure may be related to current global preferences.\n"
+"Do you want to reset global preferences to defaults?"
+msgstr ""
+"Radiant failed to start properly the last time it was run.\n"
+"The failure may be related to current global preferences.\n"
+"Do you want to reset global preferences to defaults?"
+
+msgid "Radiant - Startup Failure"
+msgstr "Radiant - Startup Failure"
+
+msgid "Radiant - Console Log"
+msgstr "Radiant - Console Log"
+
+msgid "WARNING: Could not delete game pid at "
+msgstr "WARNING: Could not delete game pid at "
+
+msgid "You have to save your map before material generation can work"
+msgstr "You have to save your map before material generation can work"
+
+msgid "Failed to launch browser!"
+msgstr "Failed to launch browser!"
+
+msgid "There's already a worldspawn in your map!"
+msgstr "There's already a worldspawn in your map!"
+
+msgid "You have to select some brushes to get the bounding box for.\n"
+msgstr "You have to select some brushes to get the bounding box for.\n"
+
+msgid "No selection"
+msgstr "No selection"
+
+msgid "Background Image"
+msgstr "Background Image"
+
+msgctxt "Context Menu Action"
+msgid "Connect"
+msgstr "Connect"
+
+msgctxt "Context Menu Action"
+msgid "Fit Face"
+msgstr "Fit Face"
+
+msgid "Open File"
+msgstr "Open File"
+
+msgid "Save File"
+msgstr "Save File"
+
+msgid "All Files (*.*)"
+msgstr "All Files (*.*)"
+
+msgid ""
+"The file specified already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+"The file specified already exists.\n"
+"Do you want to replace it?"
+
+msgid "Find Brush"
+msgstr "Find Brush"
+
+msgid "Find"
+msgstr "Find"
+
+msgid "Radiant - Error"
+msgstr "Radiant - Error"
+
+msgid "Choose Model"
+msgstr "Choose Model"
+
+msgid "Open Wav File"
+msgstr "Open Wav File"
+
+msgid "Choose File"
+msgstr "Choose File"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Layout Preferences"
+msgstr "Layout Preferences"
+
+msgid "Pathfinding log file"
+msgstr "Pathfinding log file"
+
+msgid "Open an existing map (CTRL + O)"
+msgstr "Open an existing map (CTRL + O)"
+
+msgid "Save the active map (CTRL + S)"
+msgstr "Save the active map (CTRL + S)"
+
+msgid "Undo (CTRL + Z)"
+msgstr "Undo (CTRL + Z)"
+
+msgid "Redo (CTRL + Y)"
+msgstr "Redo (CTRL + Y)"
+
+msgid "x-axis Flip"
+msgstr "x-axis Flip"
+
+msgid "x-axis Rotate"
+msgstr "x-axis Rotate"
+
+msgid "y-axis Flip"
+msgstr "y-axis Flip"
+
+msgid "y-axis Rotate"
+msgstr "y-axis Rotate"
+
+msgid "z-axis Flip"
+msgstr "z-axis Flip"
+
+msgid "z-axis Rotate"
+msgstr "z-axis Rotate"
+
+msgid "Select touching"
+msgstr "Select touching"
+
+msgid "Select inside"
+msgstr "Select inside"
+
+msgid "Select whole entity"
+msgstr "Select whole entity"
+
+msgid "Select all of type"
+msgstr "Select all of type"
+
+msgid "CSG Subtract (SHIFT + U)"
+msgstr "CSG Subtract (SHIFT + U)"
+
+msgid "CSG Merge (CTRL + U)"
+msgstr "CSG Merge (CTRL + U)"
+
+msgid "Hollow"
+msgstr "Hollow"
+
+msgid "Select Vertices (V)"
+msgstr "Select Vertices (V)"
+
+msgid "Select Edges (E)"
+msgstr "Select Edges (E)"
+
+msgid "Select Faces (F)"
+msgstr "Select Faces (F)"
+
+msgid "Clipper (X)"
+msgstr "Clipper (X)"
+
+msgid "Filter nodraw"
+msgstr "Filter nodraw"
+
+msgid "Filter actorclip"
+msgstr "Filter actorclip"
+
+msgid "Filter weaponclip"
+msgstr "Filter weaponclip"
+
+msgid "Change views"
+msgstr "Change views"
+
+msgid "Translate (W)"
+msgstr "Translate (W)"
+
+msgid "Rotate (R)"
+msgstr "Rotate (R)"
+
+msgid "Scale"
+msgstr "Scale"
+
+msgid "Resize (Q)"
+msgstr "Resize (Q)"
+
+msgid "Refresh Models"
+msgstr "Refresh Models"
+
+msgid "Background image"
+msgstr "Background image"
+
+msgid "Create material entries for selected faces (M)"
+msgstr "Create material entries for selected faces (M)"
+
+msgid "Texture Lock (SHIFT + T)"
+msgstr "Texture Lock (SHIFT + T)"
+
+msgid "Texture Browser (T)"
+msgstr "Texture Browser (T)"
+
+msgid "Save Image"
+msgstr "Save Image"
+
+msgid "Cone..."
+msgstr "Cone..."
+
+msgid "Prism..."
+msgstr "Prism..."
+
+msgid "Sphere..."
+msgstr "Sphere..."
+
+msgid "Make _Hollow"
+msgstr "Make _Hollow"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Subtract"
+msgstr "CSG _Subtract"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Merge"
+msgstr "CSG _Merge"
+
+msgid "Clip selection"
+msgstr "Clip selection"
+
+msgid "Split selection"
+msgstr "Split selection"
+
+msgid "Flip Clip orientation"
+msgstr "Flip Clip orientation"
+
+msgid "Make detail"
+msgstr "Make detail"
+
+msgid "Make structural"
+msgstr "Make structural"
+
+msgid "Texture Lock"
+msgstr "Texture Lock"
+
+msgid "Copy Face Texture"
+msgstr "Copy Face Texture"
+
+msgid "Paste Face Texture"
+msgstr "Paste Face Texture"
+
+msgid "Make Hollow"
+msgstr "Make Hollow"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract"
+msgstr "CSG Subtract"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge"
+msgstr "CSG Merge"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG"
+msgstr "CSG"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract (SHIFT + U)"
+msgstr "CSG Subtract (SHIFT + U)"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge (CTRL + U)"
+msgstr "CSG Merge (CTRL + U)"
+
+msgid "_Regroup"
+msgstr "_Regroup"
+
+msgid "_Ungroup"
+msgstr "_Ungroup"
+
+msgid "_Connect"
+msgstr "_Connect"
+
+msgid "_Select Color..."
+msgstr "_Select Color..."
+
+msgctxt "Filter Menu"
+msgid "World"
+msgstr "World"
+
+msgctxt "Filter Menu"
+msgid "Entities"
+msgstr "Entities"
+
+msgctxt "Filter Menu"
+msgid "Translucent"
+msgstr "Translucent"
+
+msgctxt "Filter Menu"
+msgid "Liquids"
+msgstr "Liquids"
+
+msgctxt "Filter Menu"
+msgid "Caulk"
+msgstr "Caulk"
+
+msgctxt "Filter Menu"
+msgid "Clips"
+msgstr "Clips"
+
+msgctxt "Filter Menu"
+msgid "ActorClips"
+msgstr "ActorClips"
+
+msgctxt "Filter Menu"
+msgid "WeaponClips"
+msgstr "WeaponClips"
+
+msgctxt "Filter Menu"
+msgid "Lights"
+msgstr "Lights"
+
+msgctxt "Filter Menu"
+msgid "NoSurfLights"
+msgstr "NoSurfLights"
+
+msgctxt "Filter Menu"
+msgid "NoFootsteps"
+msgstr "NoFootsteps"
+
+msgctxt "Filter Menu"
+msgid "Structural"
+msgstr "Structural"
+
+msgctxt "Filter Menu"
+msgid "Nodraw"
+msgstr "Nodraw"
+
+msgctxt "Filter Menu"
+msgid "Phong"
+msgstr "Phong"
+
+msgctxt "Filter Menu"
+msgid "Details"
+msgstr "Details"
+
+msgctxt "Filter Menu"
+msgid "Hints"
+msgstr "Hints"
+
+msgctxt "Filter Menu"
+msgid "Models"
+msgstr "Models"
+
+msgctxt "Filter Menu"
+msgid "Triggers"
+msgstr "Triggers"
+
+msgid "Invert filters"
+msgstr "Invert filters"
+
+msgid "Reset filters"
+msgstr "Reset filters"
+
+msgid "Save as Obj"
+msgstr "Save as Obj"
+
+msgid "Light intensity"
+msgstr "Light intensity"
+
+msgid "Arbitrary sides"
+msgstr "Arbitrary sides"
+
+msgid "Cubic clip the camera view (\\)"
+msgstr "Cubic clip the camera view (\\)"
+
+msgid "Mapped Commands"
+msgstr "Mapped Commands"
+
+msgid "Recent Files"
+msgstr "Recent Files"
+
+msgid "Open Map"
+msgstr "Open Map"
+
+msgctxt "Last used files count"
+msgid "Count"
+msgstr "Count"
+
+msgid "Arbitrary rotation"
+msgstr "Arbitrary rotation"
+
+msgid "CSG Subtract"
+msgstr "CSG Subtract"
+
+msgid "CSG Merge"
+msgstr "CSG Merge"
+
+msgid "Select _Vertices"
+msgstr "Select _Vertices"
+
+msgid "Select _Edges"
+msgstr "Select _Edges"
+
+msgid "Select _Faces"
+msgstr "Select _Faces"
+
+msgid "Image formats:"
+msgstr "Image formats:"
+
+msgid "Yaw Angle"
+msgstr "Yaw Angle"
+
+msgid "Direction"
+msgstr "Direction"
+
+msgid "Select all of _same type"
+msgstr "Select all of _same type"
+
+msgid "Error saving file"
+msgstr "Error saving file"
+
+msgid "Prefab"
+msgstr "Prefab"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Deselect before insert"
+msgstr "Deselect before insert"
+
+msgid "Replace current selection"
+msgstr "Replace current selection"
+
+msgid "Prefabs"
+msgstr "Prefabs"
+
+msgid "Rock..."
+msgstr "Rock..."
+
+msgid "Open Sound File"
+msgstr "Open Sound File"
+
+msgid "Select all Faces of same te_xture"
+msgstr "Select all Faces of same te_xture"
+
+msgid "Toggle Prefabs"
+msgstr "Toggle Prefabs"
+
+msgid "Error during load of map."
+msgstr "Error during load of map."
+
+msgid "Import Map"
+msgstr "Import Map"
+
+msgid "Save Map"
+msgstr "Save Map"
+
+msgid "Export Selection"
+msgstr "Export Selection"
+
+msgid "Export Region"
+msgstr "Export Region"
+
+msgid "Select all Faces of same texture"
+msgstr "Select all Faces of same texture"

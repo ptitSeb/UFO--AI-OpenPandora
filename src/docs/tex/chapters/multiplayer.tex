@@ -1,0 +1,32 @@
+\section{Multiplayer}
+\subsection{General}
+HTTP is used to query the master server and game server, both dedicated and listen.  IPv4 and IPv6 are both supported, and the servers run at TCP/27910.
+
+\subsection{Client}
+You can play `UFO: Alien Invasion' with your friends via LAN or Internet connection. One player controls a human team while another player takes command of the aliens for a bloody head-to-head battle. UFO:AI also supports cooperative team play with multiple players on both sides. Just enter the multiplayer menu. Local servers in your LAN should be automatically shown -- if not, you can use the connect to IP feature from the menu. Internet servers should be shown after querying the masterserver. Clients and the server should all run the same version of the game.
+
+\subsection{Server}
+
+\subsubsection{General}
+You can add your own maps by copying their \emph{bsp} files into \gamepath{base/maps/} or copying the \emph{pk3} files to \gamepath{base/}. These maps can be added to the mapcycle and, like any other map, can be started via the \consolecommand{map} command. If you want them to appear in the multiplayer menu for listen servers, you have to add a \gamepath{yourmapname.ufo} into the \gamepath{base/ufos/} folder and add a map entry. If that directory does not yet exist, you can create it.
+Examples can be found in the \gamepath{base/0ufos.pk3}\footnote{pk3 files are just zip files} file in \gamepath{maps.ufo}.
+
+\subsubsection{Listen Server}
+You can start a server for you and your friends from within the game menu. Just enter the ``Multiplayer'' menu, load your team as you would if you were a client, and enter the \emph{Create} menu. You can then select the map and game type. There are also other settings that can have an influence on gameplay -- see their tooltips for more information.
+
+\subsubsection{Dedicated Server}
+The dedicated server is console only. Useful commands are \consolecommand{gametypelist}, \consolecommand{maplist} and \consolecommand{map}. You can set the gametype by modifying the \cvar{gametype} cvar.
+
+\subsection{Remote Console}
+You can use the \consolecommand{rcon} method to change the map -- all the server administrator has to do is to set the cvar \cvar{rcon\_password}. The client has to set this cvar to the same value and use the \consolecommand{rcon} as prefix for the normal console commands.
+
+\subsection{Mapcycle}
+Using this, the map is automatically changed when one team wins the game. If no mapcycle is set, then your multiplayer games will always use the same map. The mapcycle is defined in a file called \gamepath{mapcycle.txt} which is in your \gamepath{base/} folder or in \gamepath{~./ufoai/\texttt{version}/base}. This file is in the form ``map gametype'' and each entry is separated by a newline.
+
+There are commands to modify the mapcycle from within the game:
+\begin{description}
+\item[mapcycleadd] Add new maps to the mapcycle
+\item[mapcycleclear] Delete the current mapcycle
+\item[mapcyclenext] Start the next map from the cycle
+\item[mapcyclelist] Print the current mapcycle
+\end{description}

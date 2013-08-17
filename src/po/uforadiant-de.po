@@ -1,0 +1,1590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UFORadiant\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-05-26 14:40+0600\n"
+"Last-Translator: Kostia (Kildor) Romanov <kostia@ngs.ru>\n"
+"Language-Team: UFO:AI Team <martin.gerhardy@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Basepath: ../../\n"
+
+msgid "Processing..."
+msgstr "In Bearbeitung..."
+
+msgid "Changing Engine Path"
+msgstr "Ändere den Engine Pfad"
+
+msgid "Loading Map"
+msgstr "Lade Map"
+
+msgid "Saving Map"
+msgstr "Speichere Map"
+
+msgid "Loading Model"
+msgstr "Lade Model"
+
+msgid "Refreshing Models"
+msgstr "Modelle neu laden"
+
+msgid "Loading Textures"
+msgstr "Lade Texturen"
+
+msgid "Loading Shaders"
+msgstr "Lade Shader"
+
+msgid "Autosave"
+msgstr "Automatisches Speichern"
+
+msgid "Enable Autosave"
+msgstr "Automatisches Speichern aktivieren"
+
+msgid "Autosave Frequency (minutes)"
+msgstr "Frequenz des automatisches Speicherns (in Minuten)"
+
+#, fuzzy
+msgid "Save Snapshots"
+msgstr "Speichern _als..."
+
+#, fuzzy
+msgid "Autosave Preferences"
+msgstr "GtkRadiant Einstellungen"
+
+msgid "Snap planes to integer grid"
+msgstr ""
+
+#, fuzzy
+msgid "Default texture scale"
+msgstr "Scale Entry Beispiel 1"
+
+msgid "Use alternative texture-projection"
+msgstr ""
+
+msgid "Always use nodraw for new brushes"
+msgstr ""
+
+msgid "Brush"
+msgstr "Brush"
+
+#, fuzzy
+msgid "Brush Settings"
+msgstr "Spieleinstellungen"
+
+#, fuzzy
+msgid "Movement Speed"
+msgstr "Geschwindigkeit ändern"
+
+msgid "Link strafe speed to movement speed"
+msgstr ""
+
+#, fuzzy
+msgid "Rotation Speed"
+msgstr "Geschwindigkeit ändern"
+
+msgid "Invert mouse vertical axis"
+msgstr "Invertiere Maus an der vertikalen Achse"
+
+msgid "Discrete movement"
+msgstr ""
+
+msgid "Enable far-clip plane"
+msgstr ""
+
+msgctxt "Render Mode"
+msgid "Wireframe"
+msgstr "Gitternetz"
+
+msgctxt "Render Mode"
+msgid "Flatshade"
+msgstr "Grundschattiert"
+
+msgctxt "Render Mode"
+msgid "Textured"
+msgstr "Texturiert"
+
+#, fuzzy
+msgid "Render Mode"
+msgstr "ungültiger Modus %s"
+
+msgctxt "Strafe Mode"
+msgid "Both"
+msgstr "Beide"
+
+msgctxt "Strafe Mode"
+msgid "Forward"
+msgstr "Vorwärts"
+
+msgctxt "Strafe Mode"
+msgid "Up"
+msgstr "Hoch"
+
+#, fuzzy
+msgid "Strafe Mode"
+msgstr "ungültiger Modus %s"
+
+msgid "Camera"
+msgstr "Kamera"
+
+#, fuzzy
+msgid "Camera View Preferences"
+msgstr "Internen Betrachter ben&utzen"
+
+msgid "Colors"
+msgstr "Farben"
+
+msgid "Themes"
+msgstr ""
+
+msgid "QE4 Original"
+msgstr "QE4 Original"
+
+msgid "Q3Radiant Original"
+msgstr "Q3Radiant Original"
+
+msgid "Black and Green"
+msgstr "Schwarz und Grün"
+
+msgid "Maya/Max/Lightwave Emulation"
+msgstr "Maya/Max/Lightwave Emulation"
+
+msgid "_Texture Background..."
+msgstr "_Textur Hintergrund..."
+
+msgid "Grid Background..."
+msgstr "Gitter Hintergrund..."
+
+#, fuzzy
+msgid "Grid Major..."
+msgstr "Gitter Hintergrund..."
+
+#, fuzzy
+msgid "Grid Minor..."
+msgstr "Gitter Hintergrund..."
+
+#, fuzzy
+msgid "Grid Major Small..."
+msgstr "Am Gitter fangen"
+
+#, fuzzy
+msgid "Grid Minor Small..."
+msgstr "Am Gitter fangen"
+
+#, fuzzy
+msgid "Grid Text..."
+msgstr "Gitter Text..."
+
+#, fuzzy
+msgid "Grid Block..."
+msgstr " Block speichern "
+
+#, fuzzy
+msgid "Default Brush..."
+msgstr "Gewählte Brush..."
+
+msgid "Camera Background..."
+msgstr "Kamera Hintergrund..."
+
+msgid "Selected Brush..."
+msgstr "Gewählte Brush..."
+
+#, fuzzy
+msgid "Selected Brush (Camera)..."
+msgstr "Gewählte Version %s (%s) für %s\n"
+
+msgid "Clipper..."
+msgstr ""
+
+#, fuzzy
+msgid "Active View name..."
+msgstr "--%s benötigt <Name> <Pfad>"
+
+msgid "Command"
+msgstr "Kommando"
+
+msgid "Key"
+msgstr "Schlüssel"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "_Help"
+msgstr "_Hilfe"
+
+msgid "Manual"
+msgstr "Anleitung"
+
+msgid "Bug report"
+msgstr "Bug melden"
+
+msgid "_About"
+msgstr "Über"
+
+msgid "_Plugins"
+msgstr "_Plugins"
+
+#, fuzzy
+msgid "_View"
+msgstr "Anzeige"
+
+msgid "Hide _Unused"
+msgstr "Verstecke _ungenutzte"
+
+msgid "Show All"
+msgstr "Zeige _alle"
+
+msgid "Show shaders"
+msgstr "Zeige Shader"
+
+msgid "Fixed Size"
+msgstr "Feste Größe"
+
+msgid "_Tools"
+msgstr "Werkzeuge"
+
+#, fuzzy
+msgid "Flush & Reload Shaders"
+msgstr "Schnelles Neulesen"
+
+msgid "Find / Replace..."
+msgstr "Suchen / Ersetzen..."
+
+#, fuzzy
+msgid "Texture Thumbnail Scale"
+msgstr "Scale Entry Beispiel 1"
+
+msgid "Mousewheel Increment"
+msgstr ""
+
+msgid "Texture Browser"
+msgstr "Texture Browser"
+
+#, fuzzy
+msgid "Texture Browser Preferences"
+msgstr "INFO: gl: Frame=%dx%d, Textur=%dx%d\n"
+
+#, fuzzy
+msgid "Window Layout"
+msgstr "Hauptfenster"
+
+#, fuzzy
+msgid "Detachable Menus"
+msgstr "&DVD Menüs"
+
+#, fuzzy
+msgid "Plugin Toolbar"
+msgstr "<b>Aussehen der Werkzeugleiste</b>"
+
+msgid "_File"
+msgstr "Datei"
+
+msgid "_New Map"
+msgstr "_Neue Map"
+
+msgid "_Open..."
+msgstr "Öffnen..."
+
+msgid "_Import..."
+msgstr "_Importieren..."
+
+msgid "_Save"
+msgstr "_Speichern"
+
+msgid "Save _as..."
+msgstr "Speichern unter..."
+
+msgid "Save s_elected..."
+msgstr "Speichere Auswahl..."
+
+msgid "Save re_gion..."
+msgstr "Speichere Region..."
+
+#, fuzzy
+msgid "_Refresh models"
+msgstr "Schirm auff&rischen      C-l"
+
+msgid "E_xit"
+msgstr "Beenden"
+
+msgid "_Edit"
+msgstr "B_earbeiten"
+
+msgid "_Undo"
+msgstr "Rückgängig"
+
+msgid "_Redo"
+msgstr "Wiede_rholen"
+
+msgid "_Copy"
+msgstr "Kopieren"
+
+msgid "_Paste"
+msgstr "Einfügen"
+
+#, fuzzy
+msgid "P_aste To Camera"
+msgstr "Am Gitter fangen"
+
+msgid "_Duplicate"
+msgstr "_Duplizieren"
+
+msgid "D_elete"
+msgstr "_Entfernen"
+
+#, fuzzy
+msgid "Pa_rent"
+msgstr "Phags-pa"
+
+msgid "C_lear Selection"
+msgstr "Auswahl löschen"
+
+msgid "_Invert Selection"
+msgstr "Auswahl umkehren"
+
+msgid "Select i_nside"
+msgstr "Alles ei_ngeschlossene auswählen"
+
+msgid "Select _touching"
+msgstr "Alles berührende auswählen"
+
+msgid "E_xpand Selection"
+msgstr "Erweitere Auswahl"
+
+msgid "To Whole _Entities"
+msgstr "Auf gesamte Entität erweitern"
+
+msgid "Shortcuts list"
+msgstr "Tastenbelegung"
+
+msgid "Pre_ferences..."
+msgstr "Einstellungen"
+
+msgid "Filter"
+msgstr "Filter"
+
+#, fuzzy
+msgid "Vie_w"
+msgstr "&Datei anzeigen...    "
+
+msgid "Toggle Sidebar"
+msgstr "Seitenleiste umschalten"
+
+msgid "Toggle EntityInspector"
+msgstr "Entity Inspector umschalten"
+
+msgid "Toggle SurfaceInspector"
+msgstr "Surface Inspector umschalten"
+
+#, fuzzy
+msgid "_Center"
+msgstr "Mitte"
+
+#, fuzzy
+msgid "_Up Floor"
+msgstr "Aufwärts schieben"
+
+#, fuzzy
+msgid "_Down Floor"
+msgstr "Abwärts schieben"
+
+msgid "Far Clip Plane In"
+msgstr ""
+
+msgid "Far Clip Plane Out"
+msgstr ""
+
+#, fuzzy
+msgid "Look Through Selected"
+msgstr "Gewählte Version %s (%s) für %s\n"
+
+#, fuzzy
+msgid "Look Through Camera"
+msgstr "&Backspace durch Tabs"
+
+msgid "Orthographic"
+msgstr "Orthographisch"
+
+#, fuzzy
+msgid "_Next (XY, YZ, YZ)"
+msgstr "OSD Nächster Kanal"
+
+msgid "XY (Top)"
+msgstr "XY (Oben)"
+
+msgid "XZ (Side)"
+msgstr "YZ (Seite)"
+
+msgid "YZ (Front)"
+msgstr "XZ (Vorne)"
+
+msgid "_XY 100%"
+msgstr "_XY 100%"
+
+#, fuzzy
+msgid "XY Zoom _In"
+msgstr "Horizontal vergrößern"
+
+#, fuzzy
+msgid "XY Zoom _Out"
+msgstr "Horizontal verkleinern"
+
+msgid "Show"
+msgstr "Zeige"
+
+msgid "Toggle Grid"
+msgstr "Gitter umschalten"
+
+msgid "Toggle Crosshairs"
+msgstr "Fadenkreuz umschalten"
+
+msgid "Toggle Sizeinfo"
+msgstr "Größeninformationen umschalten"
+
+msgid "Show _Angles"
+msgstr "Zeige Winkel"
+
+msgid "Show _Names"
+msgstr "Zeige _Namen"
+
+#, fuzzy
+msgid "Show Blocks"
+msgstr "  Freie Blöcke: "
+
+msgid "Show C_oordinates"
+msgstr "Zeige Koordinaten"
+
+#, fuzzy
+msgid "Show Window Outline"
+msgstr "&Kommentarfenster anzeigen"
+
+msgid "Show Axes"
+msgstr "Zeige Achsen"
+
+#, fuzzy
+msgid "Show Workzone"
+msgstr "Zeigen _Namen"
+
+msgid "Show Stats"
+msgstr "Zeige Statistik"
+
+msgid "Hide/Show"
+msgstr "Anzeigen / Verbergen"
+
+msgid "Hide Selected"
+msgstr "Verstecke Auswahl"
+
+msgid "Show Hidden"
+msgstr "Zeige versteckte"
+
+msgid "Region"
+msgstr "Region"
+
+#, fuzzy
+msgid "_Off"
+msgstr "aus"
+
+#, fuzzy
+msgid "_Set XY"
+msgstr "XY (Oben)"
+
+#, fuzzy
+msgid "Set _Brush"
+msgstr "Gewählte Brush..."
+
+msgid "Set Se_lected Brushes"
+msgstr ""
+
+msgid "M_odify"
+msgstr "M_odifizieren"
+
+msgid "Components"
+msgstr "Komponenten"
+
+msgid "_Edges"
+msgstr "Kant_en"
+
+msgid "_Vertices"
+msgstr "Eckpunkte"
+
+msgid "_Faces"
+msgstr "Seiten"
+
+msgid "Nudge"
+msgstr "Schieben"
+
+msgid "Nudge Left"
+msgstr "Links schieben"
+
+msgid "Nudge Right"
+msgstr "Rechts schieben"
+
+msgid "Nudge Up"
+msgstr "Aufwärts schieben"
+
+msgid "Nudge Down"
+msgstr "Abwärts schieben"
+
+msgid "Rotate"
+msgstr "Rotieren"
+
+msgid "Rotate X"
+msgstr "Rotiere X"
+
+msgid "Rotate Y"
+msgstr "Rotiere Y"
+
+msgid "Rotate Z"
+msgstr "Rotiere Z"
+
+msgid "Flip"
+msgstr "Spiegeln"
+
+msgid "Flip _X"
+msgstr "Spiegele _X"
+
+msgid "Flip _Y"
+msgstr "Spiegele _Y"
+
+msgid "Flip _Z"
+msgstr "Spiegele _Z"
+
+msgid "Arbitrary rotation..."
+msgstr "Beliebig drehen..."
+
+msgid "Arbitrary scale..."
+msgstr "Beliebig skalieren..."
+
+msgid "_Grid"
+msgstr "_Gitter"
+
+msgid "M_isc"
+msgstr "Versch_iedenes"
+
+msgid "Find brush..."
+msgstr "Finde Brush..."
+
+#, fuzzy
+msgid "_Print XY View"
+msgstr "Internen Betrachter ben&utzen"
+
+msgid "_Background select"
+msgstr "Hintergrund_bild auswählen"
+
+msgid "Tools"
+msgstr "Werkzeuge"
+
+msgid "Check for errors"
+msgstr "Prüfe auf Fehler"
+
+msgid "Compile the map"
+msgstr "Kompiliere die Map"
+
+msgid "Show pathfinding info"
+msgstr "Zeige Routeninformationen"
+
+msgid "E_ntity"
+msgstr "E_ntity"
+
+msgid "B_rush"
+msgstr "B_rush"
+
+msgid "_Entities"
+msgstr "_Entities"
+
+msgid "_Surfaces"
+msgstr "Oberflächen"
+
+msgid "Map Info"
+msgstr "Map Info"
+
+msgid "Job Info"
+msgstr "Job Info"
+
+msgid "Surface Inspector"
+msgstr "Surface Inspector"
+
+msgid "Texture"
+msgstr "Textur"
+
+msgid "Horizontal shift"
+msgstr "Horizontale Verschiebung"
+
+msgctxt "Step width"
+msgid "Step"
+msgstr "Schrittweite"
+
+msgid "Vertical shift"
+msgstr "Vertikale Verschiebung"
+
+msgid "Horizontal stretch"
+msgstr "Horizontale Ausdehnung"
+
+msgid "Vertical stretch"
+msgstr "Vertikale Ausdehnung"
+
+msgid "Match Grid"
+msgstr "An Gitter anpassen"
+
+msgid "Texturing"
+msgstr "Texturierung"
+
+msgid "Width"
+msgstr "Weite"
+
+msgid "Height"
+msgstr "Höhe"
+
+#, fuzzy
+msgid "Surface Flags"
+msgstr "_Surface Inspector"
+
+#, fuzzy
+msgid "Content Flags"
+msgstr "Flags von %s wie folgt gesetzt: "
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Surface Inspector Increments Match Grid"
+msgstr ""
+
+msgid "Surface Inspector Preferences"
+msgstr ""
+
+msgid "About UFORadiant"
+msgstr "Über UFORadiant"
+
+msgid "<b>UFORadiant "
+msgstr ""
+
+msgid "<b>GTK+ Properties</b>"
+msgstr "<b>GTK+ Eigenschaften</b>"
+
+#, c-format
+msgid "Version: %i.%i.%i"
+msgstr "Version: %i.%i.%i"
+
+msgid "<b>OpenGL Properties</b>"
+msgstr "<b>OpenGL Eigenschaften</b>"
+
+msgid "Vendor:"
+msgstr "Vendor:"
+
+msgid "Version:"
+msgstr "Version:"
+
+msgid "Renderer:"
+msgstr "Renderer:"
+
+msgid "Entity number"
+msgstr "Entity Nummer"
+
+msgid "Brush number"
+msgstr "Brush Nummer"
+
+msgid "Find / Replace Texture(s)"
+msgstr "Finde / Ersetze Textur(en)"
+
+msgid "Find:"
+msgstr "Suchen"
+
+msgid "Replace:"
+msgstr "Ersetzen:"
+
+#, fuzzy
+msgid "Within selected brushes only"
+msgstr "<b>Nur die ausgewählten Felder importieren</b>"
+
+msgid "Apply"
+msgstr "Anwenden"
+
+msgid "ESC for default, ENTER to validate"
+msgstr ""
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Fix"
+msgstr "Repariere"
+
+msgid "Will fix all errors, not only the selected ones"
+msgstr ""
+
+msgid "Check Map"
+msgstr "Map überprüfen"
+
+msgid "Nothing to check in this map\n"
+msgstr ""
+
+msgid "Map compiling"
+msgstr "Map kompilieren"
+
+#, fuzzy
+msgid "Check output"
+msgstr "Ausgabezeilen"
+
+msgid "No problems in your map found. Output was:"
+msgstr ""
+
+msgid "Nothing to compile in this map\n"
+msgstr ""
+
+msgid "Compiles the current map with the mapcompiler"
+msgstr ""
+
+msgid "Sides:"
+msgstr "Seiten:"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Entity Inspector"
+msgstr "Entity Inspector"
+
+msgid "Entity List"
+msgstr "Entity Liste"
+
+msgid "Total Brushes"
+msgstr "# Brushes"
+
+msgid "Total Entities"
+msgstr "# Entities"
+
+#, fuzzy
+msgid "Entity breakdown"
+msgstr "Entity Info..."
+
+msgid "Entity"
+msgstr "Entity"
+
+msgid "Count"
+msgstr "Anzahl"
+
+msgid "Axial"
+msgstr "Achsenförmig"
+
+msgid "Fit"
+msgstr "Passend"
+
+msgid "Label"
+msgstr "Textmarke"
+
+msgid "  X  "
+msgstr "  X  "
+
+msgid "  Y  "
+msgstr "  Y  "
+
+msgid "  Z  "
+msgstr "  Z  "
+
+msgid "Arbitrary scale"
+msgstr "Beliebig skalieren"
+
+msgid "Grid0.125"
+msgstr "Gitter0.25"
+
+msgid "Grid0.25"
+msgstr "Gitter0.25"
+
+msgid "Grid0.5"
+msgstr "Gitter0.5"
+
+msgid "Grid1"
+msgstr "Gitter1"
+
+msgid "Grid2"
+msgstr "Gitter2"
+
+msgid "Grid4"
+msgstr "Gitter4"
+
+msgid "Grid8"
+msgstr "Gitter8"
+
+msgid "Grid16"
+msgstr "Gitter16"
+
+msgid "Grid32"
+msgstr "Gitter32"
+
+msgid "Grid64"
+msgstr "Gitter64"
+
+msgid "Grid128"
+msgstr "Gitter128"
+
+msgid "Grid256"
+msgstr "Gitter256"
+
+#, fuzzy
+msgid "Default grid spacing"
+msgstr "Am Gitter fangen"
+
+msgid "Grid"
+msgstr "Raster"
+
+msgid "Grid Settings"
+msgstr "Rastereinstellungen"
+
+msgid "UFORadiant"
+msgstr "UFORadiant"
+
+msgid ""
+"UFORadiant failed to start properly the last time it was run.\n"
+"The failure may be caused by current preferences.\n"
+"Do you want to reset all preferences to defaults?"
+msgstr ""
+"UFORadiant wurde beim letzten Mal nicht korrekt gestartet.\n"
+"Dieser Fehler kann durch die derzeitigen Einstellungen hervorgerufen worden sein.\n"
+"Sollen die Einstellungen zurückgesetzt werden?"
+
+msgid "UFORadiant - Startup Failure"
+msgstr "UFORadiant - Start fehlgeschlagen"
+
+msgid "UFORadiant - Console Log"
+msgstr "UFORadiant - Konsolen Log"
+
+msgid "Engine Path"
+msgstr "Engine Pfad"
+
+msgid "Compiler Binary"
+msgstr ""
+
+msgid "Paths"
+msgstr "Pfade"
+
+msgid "Path Settings"
+msgstr "Pfadeinstellungen"
+
+msgid "Path settings"
+msgstr "Pfadeinstellungen"
+
+#, fuzzy
+msgid "Engine Path Not Found"
+msgstr "dpkg: »%s« wurde im PATH nicht gefunden.\n"
+
+#, fuzzy
+msgid "Solid selection boxes"
+msgstr "Auswahl %s nicht gefunden"
+
+#, fuzzy
+msgid "Display size info"
+msgstr "INFO: gl: Maximale Texturgröße: %d\n"
+
+msgid "Chase mouse during drags"
+msgstr ""
+
+msgid "Update views on camera move"
+msgstr ""
+
+#, fuzzy
+msgid "Orthographic View Preferences"
+msgstr "Internen Betrachter ben&utzen"
+
+msgid "Clipper tool uses nodraw"
+msgstr ""
+
+msgid "Clipper"
+msgstr ""
+
+#, fuzzy
+msgid "Clipper Tool Settings"
+msgstr "Pro_jekteinstellungen..."
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Select"
+msgstr "Auswählen"
+
+msgid "Particle"
+msgstr "Partikel"
+
+msgid "Job"
+msgstr "Job"
+
+msgid "Progress"
+msgstr "Fortschritt"
+
+msgid "Console"
+msgstr "Konsole"
+
+msgid "Enable Logging"
+msgstr "Logging aktivieren"
+
+msgid "Load last map on open"
+msgstr "Laden zuletzt bearbeitete Map nach dem Starten"
+
+msgid "Mouse Type"
+msgstr "Maustyp"
+
+msgid "Right Button"
+msgstr "Rechte Maustaste"
+
+msgid "Activates Context Menu"
+msgstr "Aktivieren des Kontextmenüs"
+
+msgid "Mouse"
+msgstr "Mouse"
+
+msgid "Mouse Preferences"
+msgstr "Maus Einstellungen"
+
+#, c-format
+msgid "Didn't find 'game' node in the game description file '%s'\n"
+msgstr ""
+
+msgid ""
+"This will close UFORadiant and clean the corresponding registry entries.\n"
+"Next time you start UFORadiant it will be good as new. Do you wish to continue?"
+msgstr ""
+
+msgid "Reset Registry"
+msgstr "Zurücksetzen der Einstellungen"
+
+msgid "UFORadiant Preferences"
+msgstr "UFORadiant Einstellungen"
+
+#, fuzzy
+msgid "Clean"
+msgstr "Clean-Speech"
+
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#, fuzzy
+msgid "Front Page"
+msgstr "Unterseite:"
+
+msgid "Interface Preferences"
+msgstr "Interface Einstellungen"
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "General Settings"
+msgstr "Allgemeine Optionen"
+
+msgid "Settings"
+msgstr "Optionen"
+
+msgid "Edit Preferences"
+msgstr "Einstellungen bearbeiten"
+
+msgid "Preference changes require a restart:\n"
+msgstr ""
+
+msgid "GTK version:"
+msgstr "GTK Version:"
+
+msgid "GTKGL version:"
+msgstr "GTKGL Version:"
+
+msgid "GLib version:"
+msgstr "GLib Version:"
+
+msgid "Nothing to generate materials from in this map\n"
+msgstr ""
+
+msgid "Generate Materials"
+msgstr "Material generieren"
+
+msgid "Generate materials from the current map"
+msgstr ""
+
+msgid "Generate materials"
+msgstr "Material generieren"
+
+msgid "2 button"
+msgstr "2 Tasten"
+
+msgid "3 button"
+msgstr "3 Tasten"
+
+#, fuzzy, c-format
+msgid "Brushes: %d Entities: %d"
+msgstr "Entities als"
+
+msgid ""
+"The current map has changed since it was last saved.\n"
+"Do you want to save the current map before continuing?"
+msgstr ""
+"Die Datei wurde geändert seit sie das letzte Mal gespeichert wurde.\n"
+"Soll gespeichert werden bevor fortgefahren wird?"
+
+msgid "Texture Quality"
+msgstr "Texturqualität"
+
+#, fuzzy
+msgid "Texture Gamma"
+msgstr "Textureinstellungen"
+
+#, fuzzy
+msgid "Texture Render Mode"
+msgstr "ungültiger Aktualisierungs-Modus"
+
+#, fuzzy
+msgid "Hardware Texture Compression"
+msgstr "unbekannter Komprimierungstyp »%s«!"
+
+msgid "Textures"
+msgstr "Texturen"
+
+msgid "Texture Settings"
+msgstr "Textureinstellungen"
+
+#, fuzzy
+msgid "BrushExport-Plugin 3.0 by namespace"
+msgstr "<b>%(plugin)s</b> wird von den Plugins <b>%(plugin_list)s</b> benötigt."
+
+msgid "Collapse mesh"
+msgstr "Zusammenlegen"
+
+msgid "Collapse all brushes into a single group"
+msgstr ""
+
+#, fuzzy
+msgid "Collapse by material"
+msgstr "Umleitung durch %s von: %s\n"
+
+msgid "Collapse into groups by material"
+msgstr ""
+
+#, fuzzy
+msgid "Don't collapse"
+msgstr "Nicht wiederherstellen"
+
+msgid "Every brush is stored in its own group"
+msgstr ""
+
+#, fuzzy
+msgid "Ignored materials:"
+msgstr "%s: --description ignoriert mit --remove"
+
+msgid "Use short material names (max. 20 chars)"
+msgstr ""
+
+msgid "Create (o)bjects instead of (g)roups"
+msgstr ""
+
+msgid "Create material information (.mtl file)"
+msgstr ""
+
+msgid "Nothing to fix in this map\n"
+msgstr ""
+
+#, fuzzy
+msgid "Map fixing"
+msgstr "_Neue Map"
+
+msgid "Close the editor?"
+msgstr "Den Editor schließen?"
+
+msgid "Error saving file."
+msgstr "Fehler beim Speichern der Datei."
+
+msgid "You must have a selected class to create an entity"
+msgstr ""
+
+msgid "Info"
+msgstr "Hinweis"
+
+msgid "Cannot change \"classname\" key back to worldspawn."
+msgstr ""
+
+msgid "No spaces are allowed in entity keys."
+msgstr "Im Entity Schlüsselwörtern sind keine Leerzeichen erlaubt."
+
+#, fuzzy
+msgid "Console logging"
+msgstr "Logge ein"
+
+msgid "Radiant - Runtime Error"
+msgstr "Radiant - Laufzeitfehler"
+
+msgid ""
+"Radiant failed to start properly the last time it was run.\n"
+"The failure may be related to current global preferences.\n"
+"Do you want to reset global preferences to defaults?"
+msgstr ""
+"Radiant wurde beim letzten Mal nicht korrekt gestartet.\n"
+"Dieser Fehler kann durch die derzeitigen Einstellungen hervorgerufen worden sein.\n"
+"Sollen die Einstellungen zurückgesetzt werden?"
+
+msgid "Radiant - Startup Failure"
+msgstr "Radiant - Fehler beim Starten"
+
+#, fuzzy
+msgid "Radiant - Console Log"
+msgstr "konnte Protokoll-Datei »%s« nicht öffnen: %s\n"
+
+msgid "WARNING: Could not delete game pid at "
+msgstr ""
+
+msgid "You have to save your map before material generation can work"
+msgstr "Die Map muss gespeichert werden bevor die Materialien generiert werden können"
+
+msgid "Failed to launch browser!"
+msgstr "Konnte Browser nicht starten!"
+
+msgid "There's already a worldspawn in your map!"
+msgstr "Es existiert bereits ein Worldspawn in der Map!"
+
+msgid "You have to select some brushes to get the bounding box for.\n"
+msgstr ""
+
+msgid "No selection"
+msgstr "Keine Auswahl"
+
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+msgctxt "Context Menu Action"
+msgid "Connect"
+msgstr "Verbinden"
+
+msgctxt "Context Menu Action"
+msgid "Fit Face"
+msgstr "Auf Seite einpassen"
+
+msgid "Open File"
+msgstr "Öffne Datei"
+
+msgid "Save File"
+msgstr "Datei speichern"
+
+msgid "All Files (*.*)"
+msgstr "Alle Dateien"
+
+msgid ""
+"The file specified already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+
+msgid "Find Brush"
+msgstr "Finde Brush"
+
+msgid "Find"
+msgstr "Suchen"
+
+msgid "Radiant - Error"
+msgstr "Radiant - Fehler"
+
+msgid "Choose Model"
+msgstr "Wähle Modell"
+
+msgid "Open Wav File"
+msgstr "Öffne WAV Datei"
+
+msgid "Choose File"
+msgstr "Datei auswählen"
+
+#, fuzzy
+msgid "Layout"
+msgstr "Layout"
+
+#, fuzzy
+msgid "Layout Preferences"
+msgstr "GtkRadiant Einstellungen"
+
+#, fuzzy
+msgid "Pathfinding log file"
+msgstr "Log-Datei wieder verwenden?"
+
+#, fuzzy
+msgid "Open an existing map (CTRL + O)"
+msgstr "Filter-Liste öffnen [Strg-O]"
+
+#, fuzzy
+msgid "Save the active map (CTRL + S)"
+msgstr "Speichern als Skript [Strg-J]"
+
+msgid "Undo (CTRL + Z)"
+msgstr "Rückgängig (Ctrl + Z)"
+
+msgid "Redo (CTRL + Y)"
+msgstr "Wiederholen (CTRL + Y)"
+
+msgid "x-axis Flip"
+msgstr "An x-Achse spiegeln"
+
+msgid "x-axis Rotate"
+msgstr "x-Achsen Rotation"
+
+msgid "y-axis Flip"
+msgstr "An y-Achse spiegeln"
+
+msgid "y-axis Rotate"
+msgstr "y-Achsen Rotation"
+
+msgid "z-axis Flip"
+msgstr "An z-Achse spiegeln"
+
+msgid "z-axis Rotate"
+msgstr "z-Achsen Rotation"
+
+msgid "Select touching"
+msgstr "Alles berührende auswählen"
+
+msgid "Select inside"
+msgstr "Alles eingeschlossene auswählen"
+
+msgid "Select whole entity"
+msgstr "Selektion auf gesamte Entität erweitern"
+
+msgid "Select all of type"
+msgstr "Alle vom gleichen Typ selektieren"
+
+#, fuzzy
+msgid "CSG Subtract (SHIFT + U)"
+msgstr "&Audio...\tCtrl+Shift+I"
+
+#, fuzzy
+msgid "CSG Merge (CTRL + U)"
+msgstr "Ctrl+Linksziehen"
+
+msgid "Hollow"
+msgstr "Aushöhlen"
+
+msgid "Select Vertices (V)"
+msgstr "Vertices auswählen (V)"
+
+msgid "Select Edges (E)"
+msgstr "Kanten auswählen (E)"
+
+msgid "Select Faces (F)"
+msgstr "Flächen auswählen (F)"
+
+msgid "Clipper (X)"
+msgstr ""
+
+#, fuzzy
+msgid "Filter nodraw"
+msgstr "Filter level1"
+
+#, fuzzy
+msgid "Filter actorclip"
+msgstr "Filter level1"
+
+#, fuzzy
+msgid "Filter weaponclip"
+msgstr "Filter level1"
+
+#, fuzzy
+msgid "Change views"
+msgstr "Ändern in"
+
+msgid "Translate (W)"
+msgstr "Verschieben (W)"
+
+msgid "Rotate (R)"
+msgstr "Rotieren (R)"
+
+msgid "Scale"
+msgstr "Skalieren"
+
+msgid "Resize (Q)"
+msgstr "Größe ändern (Q)"
+
+msgid "Refresh Models"
+msgstr "Modelle auffrischen"
+
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+msgid "Create material entries for selected faces (M)"
+msgstr ""
+
+#, fuzzy
+msgid "Texture Lock (SHIFT + T)"
+msgstr "&Audio...\tCtrl+Shift+I"
+
+#, fuzzy
+msgid "Texture Browser (T)"
+msgstr "C_VS-Browser"
+
+msgid "Save Image"
+msgstr "Bild speichern"
+
+msgid "Cone..."
+msgstr "Kegel..."
+
+msgid "Prism..."
+msgstr "Prisma..."
+
+msgid "Sphere..."
+msgstr "Kugel..."
+
+msgid "Make _Hollow"
+msgstr "_Hohlraum erstellen"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Subtract"
+msgstr "CSG _subtrahieren"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG _Merge"
+msgstr "CSG vereinen"
+
+#, fuzzy
+msgid "Clip selection"
+msgstr "Deckel Auswahl"
+
+#, fuzzy
+msgid "Split selection"
+msgstr "Deckel Auswahl"
+
+#, fuzzy
+msgid "Flip Clip orientation"
+msgstr "Bild vertikal spiegeln."
+
+#, fuzzy
+msgid "Make detail"
+msgstr "_Hohlraum erstellen"
+
+#, fuzzy
+msgid "Make structural"
+msgstr "_Hohlraum erstellen"
+
+#, fuzzy
+msgid "Texture Lock"
+msgstr "Sperre &aufheben"
+
+#, fuzzy
+msgid "Copy Face Texture"
+msgstr "Erstelle Kante/Flche"
+
+#, fuzzy
+msgid "Paste Face Texture"
+msgstr "Erstelle Kante/Flche"
+
+msgid "Make Hollow"
+msgstr "Hohlraum erstellen"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract"
+msgstr "CSG subtrahieren"
+
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge"
+msgstr "CSG vereinen"
+
+#, fuzzy
+msgctxt "Constructive Solid Geometry"
+msgid "CSG"
+msgstr "CSG"
+
+#, fuzzy
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Subtract (SHIFT + U)"
+msgstr "&Audio...\tCtrl+Shift+I"
+
+#, fuzzy
+msgctxt "Constructive Solid Geometry"
+msgid "CSG Merge (CTRL + U)"
+msgstr "Ctrl+Linksziehen"
+
+msgid "_Regroup"
+msgstr "Neu g_ruppieren"
+
+#, fuzzy
+msgid "_Ungroup"
+msgstr "Rückgängig"
+
+msgid "_Connect"
+msgstr "Verbinden"
+
+msgid "_Select Color..."
+msgstr "Farbe au_swählen"
+
+msgctxt "Filter Menu"
+msgid "World"
+msgstr "Welt"
+
+msgctxt "Filter Menu"
+msgid "Entities"
+msgstr "Entities"
+
+msgctxt "Filter Menu"
+msgid "Translucent"
+msgstr "Durchscheinendes"
+
+msgctxt "Filter Menu"
+msgid "Liquids"
+msgstr "Flüssigkeiten"
+
+msgctxt "Filter Menu"
+msgid "Caulk"
+msgstr ""
+
+#, fuzzy
+msgctxt "Filter Menu"
+msgid "Clips"
+msgstr "Spiegeln"
+
+msgctxt "Filter Menu"
+msgid "ActorClips"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "WeaponClips"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Lights"
+msgstr "Lichter"
+
+msgctxt "Filter Menu"
+msgid "NoSurfLights"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "NoFootsteps"
+msgstr ""
+
+#, fuzzy
+msgctxt "Filter Menu"
+msgid "Structural"
+msgstr "_Hohlraum erstellen"
+
+msgctxt "Filter Menu"
+msgid "Nodraw"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Phong"
+msgstr "Phong"
+
+msgctxt "Filter Menu"
+msgid "Details"
+msgstr "Details"
+
+msgctxt "Filter Menu"
+msgid "Hints"
+msgstr ""
+
+msgctxt "Filter Menu"
+msgid "Models"
+msgstr "Modelle"
+
+msgctxt "Filter Menu"
+msgid "Triggers"
+msgstr "Trigger"
+
+msgid "Invert filters"
+msgstr "Invertiere Filter"
+
+msgid "Reset filters"
+msgstr "Deaktiviere Filter"
+
+msgid "Save as Obj"
+msgstr "Als Obj speichern"
+
+msgid "Light intensity"
+msgstr ""
+
+msgid "Arbitrary sides"
+msgstr "Beliebige Seiten"
+
+msgid "Cubic clip the camera view (\\)"
+msgstr ""
+
+#, fuzzy
+msgid "Mapped Commands"
+msgstr "Kommando"
+
+msgid "Recent Files"
+msgstr "Zuletzt geöffnet"
+
+msgid "Open Map"
+msgstr "Map öffnen"
+
+msgctxt "Last used files count"
+msgid "Count"
+msgstr "Anzahl"
+
+msgid "Arbitrary rotation"
+msgstr "Beliebig drehen..."
+
+msgid "CSG Subtract"
+msgstr "CSG subtrahieren"
+
+msgid "CSG Merge"
+msgstr "CSG vereinen"
+
+msgid "Select _Vertices"
+msgstr "Wähle Ecken"
+
+msgid "Select _Edges"
+msgstr "Wähle Kant_en"
+
+msgid "Select _Faces"
+msgstr "Wähle Seiten"
+
+msgid "Image formats:"
+msgstr "Bildformate:"
+
+msgid "Yaw Angle"
+msgstr "Schiebewinkel"
+
+msgid "Direction"
+msgstr "Richtung"
+
+#, fuzzy
+msgid "Select all of _same type"
+msgstr "(De)Selektiere alles"
+
+msgid "Error saving file"
+msgstr "Fehler beim Speichern der Datei"
+
+msgid "Prefab"
+msgstr "Prefab"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Deselect before insert"
+msgstr ""
+
+msgid "Replace current selection"
+msgstr "Aktuelle Auswahl ersetzen"
+
+msgid "Prefabs"
+msgstr "Prefabs"
+
+msgid "Rock..."
+msgstr "Felsen..."
+
+msgid "Open Sound File"
+msgstr "Öffne Sound Datei"
+
+msgid "Select all Faces of same te_xture"
+msgstr "Alle Flächen mit gleicher Textur auswählen"
+
+msgid "Toggle Prefabs"
+msgstr "Prefabs umschalten"
+
+msgid "Error during load of map."
+msgstr "Fehler beim Laden der Map."
+
+msgid "Import Map"
+msgstr "Importiere Map"
+
+msgid "Save Map"
+msgstr "Speichere Map"
+
+msgid "Export Selection"
+msgstr "Exportiere Auswahl"
+
+msgid "Export Region"
+msgstr "Exportiere Region"
+
+msgid "Select all Faces of same texture"
+msgstr "Alle Seiten mit der gleichen Textur selektieren"

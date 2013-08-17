@@ -1,0 +1,124 @@
+
+
+component panel myAllocatedPanel {
+
+	{
+		size "200 20"
+	}
+
+	string value  {
+		pos "0 0"
+		size "40 20"
+	}
+
+	spinner changeValue
+	{
+		tooltip		"_Buy and sell item"
+		image		"ui/spinner_blue"
+		pos			"40 0"
+		min			0
+		max			10
+	}
+
+	func initCvar {
+		*node:parent.value@string = "*cvar:<1>"
+		*node:parent.changeValue@current = "*cvar:<1>"
+	}
+
+}
+
+window unittest_nodeallocation
+{
+	{
+		pos "100 100"
+		size "340 500"
+		dragbutton	true
+		closebutton	true
+		string		"_Unittest node allocation"
+		bgcolor		"0 0 0 1"
+		timeout		1000
+	}
+
+	panel dyn {
+		layout		LAYOUT_CLIENT
+		pos			"10 140"
+		size		"300 350"
+		bgcolor		"0.3 0.3 0.3 1"
+		onViewChange {
+			*node:root.dyn_scroll@fullsize = <fullsize>
+			*node:root.dyn_scroll@current = <viewpos>
+			*node:root.dyn_scroll@viewsize = <viewsize>
+		}
+	}
+
+	vscrollbar dyn_scroll {
+		image		"ui/scrollbar_v_green"
+		pos			"310 140"
+		height		"350"
+		onChange		{ *node:root.dyn@viewpos = <current> }
+	}
+
+	button create {
+		pos "10 60"
+		size "150 20"
+		string "create"
+		onClick {
+			call *node:root.dyn@createchild ( "foo<cvar:nb>" , "string" )
+			*node:root.dyn.foo<cvar:nb>@top = ( *cvar:nb * 20 )
+			*node:root.dyn.foo<cvar:nb>@width = 100
+			*node:root.dyn.foo<cvar:nb>@height = 20
+			*node:root.dyn.foo<cvar:nb>@string = "foo<cvar:nb>"
+			*node:root.dyn.foo<cvar:nb>@onClick = {
+				*node:this@num = ( ( *node:this@num + 1 ) % 4 )
+				if ( *node:this@num == 0 ) {
+					*node:this@color = "1 1 1 1"
+				} elif ( *node:this@num == 1 ) {
+					*node:this@color = "0 0 1 1"
+				} elif ( *node:this@num == 2 ) {
+					*node:this@color = "0 1 0 1"
+				} elif ( *node:this@num == 3 ) {
+					*node:this@color = "1 0 0 1"
+				}
+			}
+
+			call *node:root.dyn@createchild ( "panel<cvar:nb>" , "myAllocatedPanel" )
+			*node:root.dyn.panel<cvar:nb>@top = ( *cvar:nb * 20 )
+			*node:root.dyn.panel<cvar:nb>@left = 100
+			*cvar:foo<cvar:nb> = 1
+			call *node:root.dyn.panel<cvar:nb>.initCvar ( "foo<cvar:nb>" )
+
+			*cvar:nb = ( *cvar:nb + 1 )
+		}
+	}
+
+	button removeOne {
+		pos "10 80"
+		size "150 20"
+		string "remove one"
+		onClick {
+			if ( *cvar:nb > 0 ) {
+				*cvar:nb = ( *cvar:nb - 1 )
+				call *node:root.dyn.foo<cvar:nb>@delete
+				call *node:root.dyn.panel<cvar:nb>@delete
+			}
+		}
+	}
+
+	button removeAll {
+		pos "10 100"
+		size "150 20"
+		string "remove all"
+		onClick {
+			call *node:root.dyn@removeAllChild
+			*cvar:nb = 0
+		}
+	}
+
+	func onWindowOpened {
+		*cvar:nb = 0
+	}
+
+	func onWindowClosed {
+		delete *cvar:nb
+	}
+}

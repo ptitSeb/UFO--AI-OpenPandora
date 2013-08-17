@@ -1,0 +1,59 @@
+Source: ufoai
+Section: games
+Priority: optional
+Maintainer: UFOAI Team <tlh2000@users.sourceforge.net>
+Build-Depends: debhelper (>= 5.0.0), libpng-dev, libjpeg8-dev,
+ libgl1-mesa-dev, libsdl-dev, libsdl-ttf2.0-dev, libsdl-mixer1.2-dev,
+ libcurl3-openssl-dev | libcurl4-openssl-dev | libcurl4-gnutls-dev,
+ zip, libgtk2.0-dev (>=2.4.0), libxml2-dev, libgtkglext1-dev,
+ libtheora-dev | libxvidcore4-dev, dpatch,
+ libglib2.0-dev, zlib1g-dev, gettext, libmxml-dev,
+ pkg-config, libopenal-dev, libgtksourceview2.0-dev,
+ python2.6 | python2.7, binutils-dev,
+ libx11-xcb-dev, texlive-latex-base, texlive-latex-recommended,
+ texlive-latex-extra
+Build-Conflicts: nvidia-glx, nvidia-current
+Standards-Version: 3.7.3
+Homepage: http://ufoai.sf.net
+Vcs-Git: git://ufoai.git.sourceforge.net/gitroot/ufoai/ufoai
+
+Package: ufoai
+Section: games
+Priority: optional
+Architecture: any
+Conflicts: ufoai-server, ufoai-data
+Depends: ${shlibs:Depends}, ttf-freefont, ttf-dejavu, ttf-thai-tlwg,
+ ttf-wqy-zenhei, ttf-unfonts-core, ttf-unfonts-extra, ttf-umefont
+Suggests: blender, ufoai-uforadiant
+Description: UFO: Alien Invasion - build your team and stop the aliens
+ "UFO: Alien Invasion" is a game inspired by the XCOM "UFO" series.
+ .
+ As manager of an international military force dedicated to stop the
+ Alien Invasion, you prepare your soldiers and attack the aliens on
+ various sites on the Earth.
+ .
+ A multiplayer mode is also available.
+
+Package: ufoai-server
+Section: games
+Priority: optional
+Architecture: any
+Conflicts: ufoai, ufoai-server-data
+Depends: ${shlibs:Depends}
+Description: UFO: Alien Invasion - standalone game server
+ "UFO: Alien Invasion" is a game inspired by the XCOM "UFO" series.
+ .
+ This package includes the standalone game server.
+ It is only needed if you want to setup a permanent game server.
+
+Package: ufoai-uforadiant
+Section: games
+Priority: optional
+Architecture: any
+Conflicts: ufoai-radiant, ufoai-tools
+Depends: ${shlibs:Depends}
+Description: UFO: Alien Invasion - map-building tool
+ "UFO: Alien Invasion" is a game inspired by the XCOM "UFO" series.
+ .
+ This package includes the map-building tool UFORadiant. It's based on
+ GTKRadiant 1.5.

@@ -1,0 +1,101 @@
+
+component panel test_inheritedconfunc_component {
+	{
+		bgcolor		"0 1 0 0.5"
+		size		"50 20"
+	}
+
+	string text {
+		size		"80 50"
+		string		""
+	}
+
+	confunc test_inheritedconfunc_call {
+			*node:test_inheritedconfunc.testDefault@color = "0 1 0 1"
+	}
+}
+
+window test_inheritedconfunc_popup_push {
+	{
+		pos			"50 50"
+		size		"50 50"
+		bgcolor		"0 0 0 1"
+	}
+
+	test_inheritedconfunc_component foo {
+		{ pos "10 220" size "10 10"}
+
+		// this confunc is only called when his window is into the stack
+		// here the popup is pushed
+		confunc test_inheritedconfunc_call {
+			*node:test_inheritedconfunc.testCalled@color = "0 1 0 1"
+		}
+	}
+}
+
+window test_inheritedconfunc_popup_notpush {
+	{
+		pos			"50 50"
+		size		"50 50"
+		bgcolor		"0 0 0 1"
+	}
+
+	test_inheritedconfunc_component foo {
+		{ pos "10 220"}
+
+		// this confunc is only called when his window is into the stack
+		// here the popup is NOT pushed
+		confunc test_inheritedconfunc_call {
+			*node:test_inheritedconfunc.testUncalled@color = "1 0 0 1"
+		}
+	}
+}
+
+window test_inheritedconfunc {
+	{
+		size		"220 200"
+		bgcolor		"0 0 0 1"
+	}
+
+	string testDefault {
+		pos		"200 60"
+		string	"t1"
+	}
+
+	string testOverwrited {
+		pos		"200 70"
+		string	"t2"
+	}
+
+	string testCalled {
+		pos		"200 80"
+		string	"t3"
+	}
+
+	string testUncalled {
+		pos		"200 90"
+		string	"t4"
+		color	"0 1 0 1"	// <-- nothing should edit it, else it is an error
+	}
+
+	// all this tree component listen the same confunc
+
+	test_inheritedconfunc_component foo1 { pos "10 10" }
+
+	test_inheritedconfunc_component foo2 {
+		{ pos "10 50" }
+		// we can override it
+		confunc test_inheritedconfunc_call {
+			*node:test_inheritedconfunc.testOverwrited@color = "0 1 0 1"
+		}
+	}
+
+	confunc test_inheritedconfunc_firecall {
+		cmd "test_inheritedconfunc_call;"
+	}
+
+	func onWindowOpened {
+		cmd "ui_push test_inheritedconfunc_popup_push"
+		cmd "test_inheritedconfunc_firecall;"
+	}
+}

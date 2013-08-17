@@ -1,0 +1,22 @@
+LICENSE (last update: Fri Sep 25 17:16:40 CST 2009)
+---------------------------------------------------
+
+There are 2 license types used throughout UFORadiant source code.
+
+BSD - modified Berkeley Software Distribution license
+(each BSD licensed source file starts with the appropriate header)
+GPL - GNU General Public License
+(see GPL at the root of the tree)
+
+How do I check which license applies to a given part of the source code?
+
+Each source file in the tree comes with a license header which explains what
+license applies. To sum up shortly:
+
+GPL: (except some files contributed by Loki Software under BSD license)
+UFORadiant Core
+UFORadiant Modules
+UFORadiant Libraries
+
+BSD:
+PicoModel Library
