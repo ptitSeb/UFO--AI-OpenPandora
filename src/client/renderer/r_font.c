@@ -189,7 +189,9 @@ static font_t *R_FontAnalyze (const char *name, const char *path, int renderStyl
 
 #ifdef PANDORA
 // need to enlarge small fonts !
-	if (size<16)
+	if (size<=12)
+		size = (size*7)/4;	//75% more
+	else if (size<=16)
 		size = (size*3)/2;	//50% more
 #endif
 	f->font = TTF_OpenFontRW(f->rw, 0, size);
